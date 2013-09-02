@@ -1,0 +1,26 @@
+// Normally mainpage styles
+
+.layout {
+	background: url(../img/bg_body.jpg) center 0 repeat;
+	background-attachment: scroll;
+}
+header {
+	background: url(../img/bg_header.png) center 0 repeat;
+}
+
+footer {
+	background: url(../img/bg_footer.png) center 0 repeat;	
+}
+%wrap {
+	margin: auto;
+	width: 940px;
+}
+.header_wrap {
+	@extend %wrap;	
+}
+.footer_wrap {
+	@extend %wrap;	
+}
+.main_wrap {
+	@extend %wrap;		
+}
