@@ -1,15 +1,70 @@
 // Normally mainpage styles
+body {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #372d2d;
+}
+a {
+    color: #c23105;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.logo {
+    float: left;
+}
+.contact {
+    float: right;
+    padding: 10px 0 0;
+    .phone {
+        position: relative;
+        p {
+            padding: 0.4rem 0 0;
+            font-family: "OpenSans-Semibold", sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            .name {
+                display: inline-block;
+                width: 4rem;
+                font-weight: normal;
+            }
+        }
+        .phone_number {
+            
+        }
+    }
+    .ico-phone {
+        @include sized-sprite($icons, "phone"); 
+        position: absolute;
+        left: -55px;
+        display: inline-block;
+    }
+}
+
+
+
 
 .layout {
-	background: url(../img/bg_body.jpg) center 0 repeat;
-	background-attachment: scroll;
+	background: url(../img/bg_body2.jpg) center 120px repeat;
+	background-attachment: fixed;
+    background-size: cover;
 }
 header {
 	background: url(../img/bg_header.png) center 0 repeat;
+    height: 80px;
+    border-bottom: 1px solid red;
 }
 
 footer {
-	background: url(../img/bg_footer.png) center 0 repeat;	
+	background: url(../img/bg_footer.png) center 0 repeat;
+    position: absolute;
+    bottom: 0;	
+    width: 100%;
+    height: 79px;
+    border-top: 1px solid red;
+    .copyright {
+        float: right;
+    }
 }
 %wrap {
 	margin: auto;
@@ -19,8 +74,18 @@ footer {
 	@extend %wrap;	
 }
 .footer_wrap {
-	@extend %wrap;	
+	@extend %wrap;
+    padding-top: 17px;	
 }
 .main_wrap {
 	@extend %wrap;		
+}
+.footer_adress {
+    float: left;
+    p {
+        font-family: "OpenSans-Semibold", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+
+    }
 }
