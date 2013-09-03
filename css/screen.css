@@ -121,7 +121,7 @@ a:hover { text-decoration: none; }
 
 .logo { float: left; position: relative; padding-left: 70px; line-height: 70px; vertical-align: middle; }
 .logo .icon_logo { background: url('../img/icons-sd97dcd483d.png') 0 -389px no-repeat; width: 65px; height: 65px; position: absolute; left: 0; top: 6px; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; z-index: 200; }
-.logo a { text-decoration: none; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
+.logo a { color: #372d2d; text-decoration: none; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
 .logo .logo2 { background: url('../img/icons-sd97dcd483d.png') 0 0 no-repeat; width: 30px; height: 379px; position: absolute; left: 20px; top: 100%; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; margin-top: 30px; }
 
 .contact { float: right; padding: 12px 0 0; }

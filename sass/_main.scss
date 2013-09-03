@@ -25,6 +25,7 @@ a {
         z-index: 200;
     }
     a {
+        color: #372d2d;
         text-decoration: none;
         @include inline-block;
     }
