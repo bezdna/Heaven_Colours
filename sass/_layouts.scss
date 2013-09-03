@@ -12,3 +12,32 @@
 		width: 70%;
 	}
 }
+.layout {
+	background: url(../img/bg_body2.jpg) center 120px repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+header {
+	background: url(../img/bg_header.png) center 0 repeat;
+    height: 80px;
+    border-bottom: 1px solid #baaa61;
+}
+
+.main_wrap {
+	@extend %wrap;		
+    padding-left: 90px;
+    @include box-sizing(border-box);
+    @include clearfix;
+}
+.main_content {
+    float: left;
+    width: 571px;
+    padding: 10px 0 10px 20px;
+}
+.sidebar {
+	float: right;
+	width: 219px;
+	padding-top: 10px;
+	padding-left: 30px;
+}

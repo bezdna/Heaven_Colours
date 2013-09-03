@@ -7,19 +7,19 @@
 	<meta name="viewport" content="width=device-width"/>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
-
-	<script src="js/app.js"></script>
-	
+	<script src="js/html5shiv.js"></script>	
 </head>
 <body>
 	<div class="layout">
 		<header>
 			<div class="header_wrap">
-				<h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="">
+				<h1 class="logo"><a href="index.html"><snan class="icon_logo">&nbsp;</snan>
 						<span class="name">Магазин произведений китайского искусства</span></a>
+						<a href="index.html" class="logo2"></a>
 				</h1>
 				<div class="contact">
 					<div class="phone">
+						<div class="icon_kvadrat_big"></div>
 						<div class="ico-phone"></div>
 						<p><span class="name">Елена</span> 8-916-696-07-02</p>
 						<p><span class="name">Светлана</span> 8-903-584-17-54</p>
@@ -31,16 +31,32 @@
 			<div class="main_wrap">
 				<section class="main_content">
 					<div class="main_image">
-						<h2>шелковые репродукции известных художников</h2>
+						<h2>шелковые репродукции известных художников <span class="icon_main-image"></span></h2>
 						<img src="img/kartina_1.jpg" alt="">
 					</div>
-					<div class="slider">
-						<ul>
+					<div class="flexslider slider carousel">
+						<ul class="slides">
 							<li>
 								<a href="#">
 									<figure>
 										<img src="img/lui.jpg" alt="">
     									<figcaption>Луи Икарт</figcaption>
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/vangog.jpg" alt="">
+    									<figcaption>Ван Гог</figcaption>
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/leonardo.jpg" alt="">
+    									<figcaption>Леонардо</figcaption>
 									</figure>
 								</a>
 							</li>
@@ -57,6 +73,38 @@
 									<figure>
 										<img src="img/lui.jpg" alt="">
     									<figcaption>Луи Икарт</figcaption>
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/vangog.jpg" alt="">
+    									<figcaption>Ван Гог</figcaption>
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/lui.jpg" alt="">
+    									<figcaption>Луи Икарт</figcaption>
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/lui.jpg" alt="">
+    									<figcaption>Луи Икарт</figcaption>
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/leonardo.jpg" alt="">
+    									<figcaption>Леонардо</figcaption>
 									</figure>
 								</a>
 							</li>
@@ -64,28 +112,42 @@
 					</div>
 					<div class="block">
 						<article>
-							<h2>Вышивка из шелка на заказ.</h2>
+							<h2><span class="icon_kvadrat_big"></span>Вышивка из шелка на заказ.</h2>
 							<p>Если ассортимент нашей галереи показался Вам недостаточным, или у Вас есть собственные предпочтения касательно того, что может быть исполнено на шелке, мы рады сообщить, что наша компания принимает индивидуальные заказы на вышитые картины.</p>
 						</article>
 						<article>
-							<h2>Шелк как искусство. Вышитые картины.</h2>
+							<h2><span class="icon_kvadrat_big"></span><a href="#">Шелк как искусство. Вышитые картины.</a></h2>
 							<p>Компания «Цвета Поднебесной» уже более 5 лет представляет в Москве предметы искусства из Китая. Выбирая наши изделия, Вы можете быть уверены, что приобретаете уникальную работу, выполненную вручную мастерами высочайшего класса.</p>
 						</article>
 					</div>
 				</section>
-				<aside>
-					<ul>
-						<li>Вышивка по шелку</li>
-						<li><a href="#">Шелковые репродукции</a></li>
+				<aside class="sidebar">
+					<ul class="sidebar_menu">
+						<li class="active"><a href="#">Вышивка по шелку</a>
+							<ul>
+								<li><a href="#">эконом</a></li>
+								<li><a href="#">премиум</a></li>
+								<li><a href="#">эксклюзив</a></li>
+								<li class="active"><a href="#">двусторонняя вышивка</a></li>
+							</ul>
+						</li>
+						<li></span><a href="#">Шелковые репродукции</a></li>
 						<li><a href="#">Предметы интерьера</a></li>
 						<li><a href="#">Литье из бронзы</a></li>
 						<li><a href="#">Резьба по камню</a></li>
-						<li><a href="#">Веера</a></li>
+						<li><span class="icon_veer"></span><a href="#">Веера</a>
+							<ul>
+								<li><a href="#">эконом</a></li>
+								<li><a href="#">премиум</a></li>
+								<li><a href="#">эксклюзив</a></li>
+								<li><a href="#">двусторонняя вышивка</a></li>
+							</ul>
+						</li>
 						<li><a href="#">Новогодние подарки</a></li>
 						<li><a href="#">Вышивка на заказ</a></li>
-						<li><a href="#">Видео</a></li>
-						<li><a href="#">Статьи</a></li>
-						<li><a href="#">Контакты</a></li>
+						<li><span class="icon_video"></span><a href="#">Видео</a></li>
+						<li><span class="icon_article"></span><a href="#">Статьи</a></li>
+						<li><a href="#"><span class="icon_contact"></span>Контакты</a></li>
 					</ul>
 				</aside>
 			</div>
@@ -95,6 +157,7 @@
 	<footer>
 		<div class="footer_wrap">
 			<div class="footer_adress">
+				<span class="icon_kvadrat_big"></span>
 				<p>Адрес магазина: Москва, Кутузовский проспект, д.30/32</p>
 				<p>Салон временно работает по предварительной договоренности.</p>
 			</div>
@@ -105,5 +168,24 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery.js">\x3C/script>')</script>
+
+	<script defer src="js/jquery.flexslider-min.js"></script>
+   <script type="text/javascript">
+    $(window).ready(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 168,
+        itemMargin: 18,
+        minItems: 2,
+        maxItems: 3
+      });
+    });
+  </script>
+
 </body>
 </html>
