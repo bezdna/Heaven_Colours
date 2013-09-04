@@ -1,4 +1,7 @@
+
+
 // Normally mainpage styles
+//* {@include transition(.2s all);}
 body {
     position: relative;
     font-family: 'Open Sans', sans-serif;
@@ -10,75 +13,125 @@ a {
         text-decoration: none;
     }
 }
-.logo {
-    float: left;
-    position: relative;
-    padding-left: 70px;
-    line-height: 70px;
-    vertical-align: middle;
-    .icon_logo {
-         @include sized-sprite($icons, "logo"); 
-         position: absolute;
-        left: 0;
-        top: 6px;        
-        @include inline-block;
-        z-index: 200;
-    }
-    a {
-        color: #372d2d;
-        text-decoration: none;
-        @include inline-block;
-    }
-    .logo2 {
-         @include sized-sprite($icons, "logo2"); 
-        position: absolute;
-        left: 20px;
-        top: 100%;
-        @include inline-block;
-        margin-top: 30px;
-    }
-}
-.contact {
-    float: right;
-    padding: 12px 0 0;
-    .phone {
+header {
+    .logo {
+        float: left;
         position: relative;
-        padding-top: 0.6rem;
-        .icon_kvadrat_big {
-            top: 10px;
-
+        padding-left: 70px;
+        line-height: 70px;
+        vertical-align: middle;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 21px;
+        @include respond-to(med) {
+            padding-top: 5px;
+            line-height: 30px;
+            position: absolute;
+            padding-right: 260px;
         }
-
-        &:hover .ico-phone{
-            -webkit-animation: rotation_ring 100ms alternate infinite linear;
-            animation: rotation_ring 100ms alternate infinite linear;
-
+        @include respond-to(pda) {
+            line-height: 16px;
         }
-        p {
-            padding: 0 0 0.1rem;
-            font-size: 14px;
-            font-weight: 600;
-            vertical-align: baseline;
-            .name {
-                @include inline-block;
-                width: 4rem;
-                font-weight: normal;
-                vertical-align: baseline;
+        @include respond-to(mob-lan) {
+            float: none;
+            position: relative;
+            padding-right: 0;
+            height: 74px;
+        }
+        .icon_logo {
+             @include sized-sprite($icons, "logo"); 
+             position: absolute;
+            left: 0;
+            top: 6px;        
+            @include inline-block;
+            z-index: 200;
+        }
+        .name {
+            @include respond-to(pda) {
+                font-size: 16px
+            }
+            
+        }
+        a {
+            color: #372d2d;
+            text-decoration: none;
+            @include inline-block;
+            padding-left: 40px;
+            @include respond-to(pda) {
+                padding-left: 0;
+            }
+        }
+        .logo2 {
+             @include sized-sprite($icons, "logo2"); 
+            position: fixed;
+            margin-left: -50px;
+            z-index: 100;
+            display: block;
+            margin-top: 30px;
+            @include respond-to(pda) {
+                display: none;
             }
         }
     }
-    .ico-phone {
-        @include sized-sprite($icons, "phone"); 
-        position: absolute;
-        left: -50px;
-        top: 13px;
-        @include inline-block;
+    .contact {
+        float: right;
+        padding: 12px 0 0;
+        @include respond-to(mob-lan) {
+            float: none;
+            padding: 0;
+            height: 80px;
+            margin: auto;
+            width: 200px;
+            position: relative;
+            left: 25px;
+        }
+        @include respond-to(mob) {
+            float: none;
+            padding: 0;
+            height: 80px;
+            margin: auto;
+            position: relative;
+            left: 44px;
+        }
+        .phone {
+            position: relative;
+            padding-top: 0.6rem;
+            .icon_kvadrat_big {
+                top: 6px;
+                left: -55px;
+            }
 
+            &:hover .ico-phone{
+                -webkit-animation: rotation_ring 100ms alternate infinite linear;
+                animation: rotation_ring 100ms alternate infinite linear;
+
+            }
+            p {
+                padding: 0 0 0.1rem;
+                margin: 0;
+                font-size: 14px;
+                font-weight: 600;
+                vertical-align: baseline;
+                .name {
+                    @include inline-block;
+                    width: 4rem;
+                    font-weight: normal;
+                    vertical-align: baseline;
+                }
+            }
+        }
+        .ico-phone {
+            @include sized-sprite($icons, "phone"); 
+            position: absolute;
+            left: -43px;
+            top: 9px;
+            @include inline-block;
+
+        }
     }
 }
-
 footer {
-	background: url(../img/bg_footer.png) center 0 repeat;
+	background: url(../img/bg_footer.png) center 100% repeat;
     position: absolute;
     bottom: 0;	
     width: 100%;
@@ -88,27 +141,15 @@ footer {
     .copyright {
         float: right;
     }
+    @include respond-to(pda) {
+        height: 158px;
+    }
 }
-%wrap {
-	margin: auto;
-	width: 940px;
-}
+
 .header_wrap {
 	@extend %wrap;	
 }
-.footer_wrap {
-	@extend %wrap;
-    padding-top: 17px;
-    padding-left: 90px;
-    @include box-sizing(border-box);
-    .copyright {
-        background: url(../img/bg_copyright.png) 0 0 no-repeat;
-        margin-top: -17px;
-        padding: 17px 30px 17px;
-        width: 170px;
 
-    }
-}
 
 
 .main_image {
@@ -117,10 +158,10 @@ footer {
     overflow: hidden;
     margin-bottom: 10px;
     h2 {
-        float: left;
-        width: 150px;
+        overflow: hidden;
+        min-width: 120px;
         text-align: center;
-        padding: 50px 25px;
+        padding: 50px 25px 0;
         font-size: 18px;
         font-weight: 600;
         text-transform: uppercase;
@@ -128,12 +169,23 @@ footer {
             @include sized-sprite($icons, "kvadrat"); 
             display: block;
             margin: 40px auto 0;
+                @include respond-to(pda) {
+                    margin-top: 20px;       
+                    margin-bottom: 15px;
+            }
+        }
+        @include respond-to(pda) {
+            padding: 20px;
         }
     }
     img {
-        overflow: hidden;
+        max-width: 66%;
         display: block;
         float: right;
+        border-left: 1px solid #d1c7a7;
+        @include respond-to(pda) {
+            min-width: 100%;
+        }
     }
 }
 .slider ul{
@@ -153,6 +205,7 @@ footer {
                 color: #372d2d;
                 bottom: 0;
                 padding: 2px 10px;
+                font-weight: bold;
             }
         }
     }
@@ -162,32 +215,123 @@ footer {
     article {
         padding-bottom: 32px;
         padding-bottom: 2rem;
-        h2 {
+        .icon_kvadrat_big {
+            margin-top: -10px;
+        }
+
+    }
+    li {
+        list-style: none;
+        @include clearfix;
+        padding-bottom: 10px;
+        .img {
+            float: left;
+            margin-right: 20px;
+            @include respond-to(mob-lan) {
+                float: none;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            img {
+                display: block;
+                border: 1px solid #baaa61;
+                @include respond-to(mob-lan) {
+                    float: none;
+                    width: 100%;
+                    @include box-sizing(border-box);
+
+                }
+            }
+            
+        }
+        .cont {
+            overflow: hidden;
+            h2 {
+                position: relative; 
+                padding-left: 35px;
+                padding-top: 3px;
+                background: url(../img/select.png) 0 0 no-repeat;
+                span {
+                    @include inline-block;
+                    position: absolute;
+                }  
+            }
+        }
+    }
+    h2 {
             color: #9f320f;
             font-size: 18px;
             font-weight: 600;
             font-style: italic;
             position: relative;
+            padding-bottom: 16px;
+            padding-bottom: 1rem;
             .icon_footer_adress {
                 left: -65px;
                 top: 50%;
                 margin-top: -23px;
             }
-            a {
-                color: #9f320f;
-                text-decoration: none;
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
+            
+        }
+    a {
+        color: #9f320f;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
         }
     }
 }
+.map {
+    margin-bottom: 20px;
+    border: 1px solid #937d55;
+    img {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+    }
+}
+.contact {
+    padding-bottom: 20px;
+    h3 {
+        font-style: italic;
+        font-weight: 600;
+    }
+    p {
+        margin: 2px 0 12px;
+        margin: 0.1rem 0 0.8rem;
+    }
+} 
 .sidebar {
 
 }
+.faq {
+    h2 {
+        position: relative;
+        font-weight: 600;
+        font-style: italic;
+        color: #a0320f;
+    }
+    dt {
+        font-weight: 600;
+        font-style: italic;
+        font-size: 16px;
+        padding: 10px 0;   
+    }
+    dd {
+        padding: 0 30px 10px;
+    }
+}
 .sidebar_menu {
     list-style: none;
+    @include respond-to(med) {
+    text-align: justify;
+    margin-left: 10px;
+        &:after {
+            content: "";
+            width: 100%;
+            @include inline-block;
+        }
+    }
     &>li {
         padding:0 0 10px 45px;
         background: url(../img/select.png) 0 0 no-repeat;
@@ -196,10 +340,34 @@ footer {
         font-size: 15px;
         font-weight: 600;
         font-style: italic;
-        &.active ul,
-        &:hover ul{
-            left: 0;
+        @include respond-to(med) {
+            width: 25%;
+            @include inline-block;
+            vertical-align: top;
+            line-height: 1.2;
+            padding-bottom: 20px;
+        }
+        @include respond-to(pda) {
+            width: 39%;
+        }
+        @include respond-to(mob-lan) {
+            width: 100%;
+            @include box-sizing(border-box);
+        }
+
+        &.active{
+            color: #372d2d;
+            @include respond-to(med) {
+                display: block;
+            }
+            a {
+                color: #372d2d;
+            }
+        }
+        &.active ul{
             position: relative;
+            left: 0;
+            
         }
         &>a {
             text-decoration: none;
@@ -214,31 +382,22 @@ footer {
                 @include inline-block;
                 @include transition(400ms all);
             }
-        .icon_contact {
-            @include sized-sprite($icons, "phone_small"); 
-            left: 7px;
-            top: 4px;
-        }
-        .icon_article {
-            @include sized-sprite($icons, "stati"); 
-            left: 6px;
-            top: 6px;
-        }
-        .icon_veer {
-            @include sized-sprite($icons, "veer"); 
-            left: 1px;
-            top: 4px;
-        }
-        .icon_video {
-            @include sized-sprite($icons, "video"); 
-            left: 4px;
-            top: 7px;
-        }
         ul {
             margin: 5px 0 0px -32px;
             padding: 0;
             position: absolute;
-            left: -999em;
+            left: 999em;
+            @include transition(none); 
+            @include respond-to(med) {
+                width: 400%;
+                margin-top: 15px;
+            }
+            @include respond-to(pda) {
+                width: 250%;
+            }
+            @include respond-to(mob-lan) {
+                width: 100%;
+            }
         }
         li {
             list-style: none;
@@ -248,6 +407,12 @@ footer {
             background: url(../img/checkbox.png) 0 center no-repeat;
             color: #000;
             font-size: 12px;
+            @include respond-to(med) {
+                @include inline-block;
+            }
+            @include respond-to(mob-lan) {
+                display: block;
+            }
             &:hover,
             &.active {
                 background: url(../img/checkbox_check.png) 0 center no-repeat;
@@ -264,30 +429,99 @@ footer {
         }
     }
 }
-.footer_adress {
-    float: left;
-    padding: 5px 0 0 20px;
-    position: relative;
 
-    p {
-        font-size: 14px;
-        font-weight: 600;
+.icon_kvadrat_big {
+    @include sized-sprite($icons, "select_big"); 
+    @include inline-block;
+    position: absolute;
+    left: -65px;
+    top: 0;
+}
+.icon_contact {
+    @include sized-sprite($icons, "phone_small"); 
+    left: 7px;
+    top: 4px;
+}
+.icon_article {
+    @include sized-sprite($icons, "stati"); 
+    left: 6px;
+    top: 6px;
+}
+.icon_veer {
+    @include sized-sprite($icons, "veer"); 
+    left: 1px;
+    top: 4px;
+}
+.icon_video {
+    @include sized-sprite($icons, "video"); 
+    left: 4px;
+    top: 7px;
+}
 
+.icon_faq {
+    @include sized-sprite($icons, "question"); 
+    @include inline-block;
+    position: absolute;
+    left: -65px;
+    top: -10px; 
+}
+
+.footer_wrap {
+    @extend %wrap;
+    padding-top: 17px;
+    padding-left: 90px;
+    @include box-sizing(border-box);
+    @include respond-to(med) {
+        padding-left: 60px;
     }
-    .icon_kvadrat_big {
-        left: -50px;
-        -webkit-animation: rotation 4s infinite linear;
-        animation: rotation 4s infinite linear;
+    .footer_adress {
+        float: left;
+        padding: 5px 0 0 20px;
+        position: relative;
+        @include respond-to(med) {
+            max-width: 425px;
+            padding-top: 0;
+        }
+        @include respond-to(pda) {
+            float: none;
+            margin: auto;
+            
+        }
+        p {
+            font-size: 14px;
+            font-weight: 600;
+            @include respond-to(pda) {
+                line-height: 1;
+                padding-bottom: 4px;
+            }
+
+        }
+        .icon_kvadrat_big {
+            left: -50px;
+            -webkit-animation: rotation 4s infinite linear;
+            animation: rotation 4s infinite linear;
+        }
+        
     }
     
-}
-.icon_kvadrat_big {
-        @include sized-sprite($icons, "select_big"); 
-        @include inline-block;
-        position: absolute;
-        left: -65px;
-        top: 0;
+    .copyright {
+        background: url(../img/bg_copyright.png) 0 0 no-repeat;
+        margin-top: -17px;
+        font-size: 12px;
+        padding: 17px 30px 17px 30px;
+        width: 170px;
+         @include respond-to(pda) {
+            margin: auto;
+            float: none;
+            clear: both;
+            padding-left: 20px;
+            padding-right: 80px;
+        }
     }
+
+}
+
+
 @-webkit-keyframes rotation {
     from {-webkit-transform: rotate(0deg);}
     to   {-webkit-transform: rotate(360deg);}
