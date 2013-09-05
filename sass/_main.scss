@@ -321,7 +321,16 @@ footer {
         padding: 0 30px 10px;
     }
 }
+.toggleMenu {
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: #9f320f;
+    text-decoration: none;
+}
 .sidebar_menu {
+    
     list-style: none;
     @include respond-to(med) {
     text-align: justify;
@@ -335,7 +344,7 @@ footer {
     &>li {
         padding:0 0 10px 45px;
         background: url(../img/select.png) 0 0 no-repeat;
-        line-height: 30px;
+        line-height: 2;
         position: relative;
         font-size: 15px;
         font-weight: 600;
@@ -345,7 +354,8 @@ footer {
             @include inline-block;
             vertical-align: top;
             line-height: 1.2;
-            padding-bottom: 20px;
+            padding:5px 0 15px 45px;
+
         }
         @include respond-to(pda) {
             width: 39%;
@@ -457,7 +467,36 @@ footer {
     left: 4px;
     top: 7px;
 }
-
+.icon_money {
+    @include sized-sprite($icons, "money"); 
+    left: 4px;
+    top: 3px;
+}
+.icon_gift {
+    @include sized-sprite($icons, "gift"); 
+    left: 4px;
+    top: 4px;
+}
+.icon_buda {
+    @include sized-sprite($icons, "buda"); 
+    left: 4px;
+    top: 4px;
+}
+.icon_kamen {
+    @include sized-sprite($icons, "kamen"); 
+    left: 4px;
+    top: 5px;
+}
+.icon_visivka {
+    @include sized-sprite($icons, "visivka"); 
+    left: 4px;
+    top: 3px;
+}
+.icon_sosud {
+    @include sized-sprite($icons, "sosud"); 
+    left: 4px;
+    top: 4px;
+}
 .icon_faq {
     @include sized-sprite($icons, "question"); 
     @include inline-block;
@@ -485,7 +524,10 @@ footer {
         @include respond-to(pda) {
             float: none;
             margin: auto;
-            
+        }
+        @include respond-to(mob) {
+            height: 90px;
+            overflow: hidden;
         }
         p {
             font-size: 14px;
@@ -494,7 +536,6 @@ footer {
                 line-height: 1;
                 padding-bottom: 4px;
             }
-
         }
         .icon_kvadrat_big {
             left: -50px;
@@ -516,6 +557,12 @@ footer {
             clear: both;
             padding-left: 20px;
             padding-right: 80px;
+        }
+        @include respond-to(mob-lan) {
+            padding-top: 7px;
+        }
+        @include respond-to(mob) {
+            padding-top: 0;
         }
     }
 

@@ -30,7 +30,8 @@
 		<div class="main">
 			<div class="main_wrap">
 				<aside class="sidebar">
-					<ul class="sidebar_menu">
+					<a class="toggleMenu" href="#menu">Menu</a>
+					<ul class="sidebar_menu nav">
 						<li class="active"><a href="#">Вышивка по шелку</a>
 							<ul>
 								<li><a href="#">эконом</a></li>
@@ -39,10 +40,10 @@
 								<li class="active"><a href="#">двусторонняя вышивка</a></li>
 							</ul>
 						</li>
-						<li></span><a href="#">Шелковые репродукции</a></li>
-						<li><a href="#">Предметы интерьера</a></li>
-						<li><a href="#">Литье из бронзы</a></li>
-						<li><a href="#">Резьба по камню</a></li>
+						<li><span class="icon_visivka"></span><a href="#">Шелковые репродукции</a></li>
+						<li><span class="icon_sosud"></span><a href="#">Предметы интерьера</a></li>
+						<li><span class="icon_buda"></span><a href="#">Литье из бронзы</a></li>
+						<li><span class="icon_kamen"></span><a href="#">Резьба по камню</a></li>
 						<li><span class="icon_veer"></span><a href="#">Веера</a>
 							<ul>
 								<li><a href="#">эконом</a></li>
@@ -51,8 +52,8 @@
 								<li><a href="#">двусторонняя вышивка</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Новогодние подарки</a></li>
-						<li><a href="#">Вышивка на заказ</a></li>
+						<li><span class="icon_gift"></span><a href="#">Новогодние подарки</a></li>
+						<li><span class="icon_money"></span><a href="#">Вышивка на заказ</a></li>
 						<li><span class="icon_video"></span><a href="#">Видео</a></li>
 						<li><span class="icon_article"></span><a href="#">Статьи</a></li>
 						<li><span class="icon_contact"></span><a href="#">Контакты</a></li>
@@ -172,22 +173,11 @@
 	</footer>
 
 	<!-- jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/jquery.js">\x3C/script>')</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.js">\x3C/script>')</script>
 
 	<script defer src="js/jquery.flexslider-min.js"></script>
-   <script type="text/javascript">
-    $(window).ready(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        animationLoop: false,
-        itemWidth: 168,
-        itemMargin: 18,
-        minItems: 2,
-        maxItems: 3
-      });
-    });
-  </script>
+	<script defer src="js/common.js"></script>
 
 </body>
 </html>
