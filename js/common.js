@@ -49,7 +49,7 @@ var adjustMenu = function() {
 
 $(document).ready(function() {
      $(window).ready(function(){
-      $('.flexslider').flexslider({
+      $('.flexslider1').flexslider({
         animation: "slide",
         animationLoop: false,
         itemWidth: 168,
@@ -59,3 +59,9 @@ $(document).ready(function() {
       });
     });
 });
+$(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails",
+      });
+    });

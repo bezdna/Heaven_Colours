@@ -63,11 +63,12 @@ header {
         }
         .logo2 {
              @include sized-sprite($icons, "logo2"); 
-            position: fixed;
-            margin-left: -50px;
+            position: absolute;
+            top: 100%;
             z-index: 100;
             display: block;
-            margin-top: 30px;
+            left: 20px;
+            margin-top: 20px;
             @include respond-to(pda) {
                 display: none;
             }
@@ -149,9 +150,6 @@ footer {
 .header_wrap {
 	@extend %wrap;	
 }
-
-
-
 .main_image {
     @include rgba-background(rgba(255,255,255,0.45));
     border: 1px solid #c5b57d;
@@ -384,13 +382,13 @@ footer {
             color: #9f320f;
         }
         &:hover > span{
-                @include transform(rotate(240grad));
+                @include transform(rotate(1turn));
                 @include opacity(0.5);
             }
         span {
                 position: absolute;
                 @include inline-block;
-                @include transition(400ms all);
+                @include transition(500ms all);
             }
         ul {
             margin: 5px 0 0px -32px;
@@ -567,7 +565,14 @@ footer {
     }
 
 }
-
+.product-page {
+    .info {
+        text-align: center;
+        p {
+            margin-bottom: 1em;
+        }
+    }
+}
 
 @-webkit-keyframes rotation {
     from {-webkit-transform: rotate(0deg);}

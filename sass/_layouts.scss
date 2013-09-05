@@ -53,7 +53,7 @@ header {
     height: 80px;
     border-bottom: 1px solid #baaa61;
     padding: 0 10px;
-    @include clearfix;
+    clear: both;
     @include respond-to(med) {
         padding: 0 10px;
     }
@@ -78,6 +78,19 @@ header {
     float: left;
     max-width: 571px;
     padding: 10px 0 10px 20px;
+    .product-page & {
+      max-width: 100%;
+      padding: 10px 110px 10px 20px;
+      @include box-sizing(border-box);
+      @include respond-to(med) {
+        max-width: 100%;
+        padding: 10px 80px 10px 20px;
+      }
+      @include respond-to(pda) {
+        max-width: 100%;
+        padding: 10px;
+      }
+    }
     @include respond-to(med) {
       max-width: 100%;
       padding-right: 80px;
@@ -86,6 +99,7 @@ header {
         padding: 10px
     }
 }
+
 .sidebar {
 	float: right;
 	width: 225px;

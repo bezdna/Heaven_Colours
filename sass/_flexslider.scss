@@ -100,3 +100,27 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+.product_slide {
+    margin-bottom: 10px;
+}
+.product_slide .flex-control-thumbs li {
+    margin: 0 5px;
+    float: none;
+    width: auto;
+}
+.product_slide .flex-control-thumbs li img{
+    height: 100px;
+    width: auto;
+    display: block;
+    border: 1px solid #000;
+}
+.product_slide .flex-direction-nav {
+    top: 40%;
+    width: 100%;
+    left: 0;
+    margin: 0;
+
+}
+.product_slide .flex-direction-nav .flex-prev { @include sized-sprite($icons, "arhor_left_2"); left: -35px; z-index: 10; position: absolute;}
+.product_slide .flex-direction-nav .flex-next { @include sized-sprite($icons, "arhor_right_2"); right: -35px; z-index: 10; position: absolute;}
