@@ -1,3 +1,30 @@
+// responsive
+$break-1: 320px; //mob
+$break-2: 480px; //mob-lan
+$break-3: 768px; //pda
+$break-4: 939px; // med
+$break-5: 940px; //height
+@mixin respond-to($media) {
+  @if $media == mob {
+    @media only screen and (max-width: $break-1) { @content; }
+  }
+  @else if $media == mob-lan {
+    @media only screen and (max-width: $break-2) { @content; }
+  }
+  @else if $media == pda {
+    @media only screen and (max-width: $break-3) { @content; }
+  }
+  @else if $media == med {
+    @media only screen and (max-width: $break-4) { @content; }
+  }
+  @else if $media == height {
+   @media only screen and (min-width: $break-5) { @content; }
+  }
+}
+%wrap {
+	margin: auto;
+	max-width: 940px;
+}
 // default layout
 .l{
 	width: 100%;
@@ -17,11 +44,22 @@
 	background-attachment: fixed;
     background-size: cover;
     padding-bottom: 80px;
+    @include respond-to(pda) {
+        padding-bottom: 160px;
+    }
 }
 header {
 	background: url(../img/bg_header.png) center 0 repeat;
     height: 80px;
     border-bottom: 1px solid #baaa61;
+    padding: 0 10px;
+    @include clearfix;
+    @include respond-to(med) {
+        padding: 0 10px;
+    }
+    @include respond-to(mob-lan) {
+        height: auto;
+    }
 }
 
 .main_wrap {
@@ -29,15 +67,38 @@ header {
     padding-left: 90px;
     @include box-sizing(border-box);
     @include clearfix;
+    @include respond-to(med) {
+        padding-left: 60px;
+    }
+     @include respond-to(pda) {
+        padding-left: 0;
+    }
 }
 .main_content {
     float: left;
-    width: 571px;
+    max-width: 571px;
     padding: 10px 0 10px 20px;
+    @include respond-to(med) {
+      max-width: 100%;
+      padding-right: 80px;
+    }
+    @include respond-to(pda) {
+        padding: 10px
+    }
 }
 .sidebar {
 	float: right;
-	width: 219px;
+	width: 225px;
 	padding-top: 10px;
-	padding-left: 30px;
+	padding-left: 10px;
+  @include respond-to(med) {
+      max-width: 100%;
+      width: auto;
+      padding-right: 80px;
+      float: none;
+    }
+  @include respond-to(pda) {
+      padding-right: 10px;
+    }
+
 }
