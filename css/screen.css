@@ -53,10 +53,10 @@ header { background: url(../img/bg_header.png) center 0 repeat; height: 80px; bo
 *********************************/
 .flexslider { margin: 0; padding: 0; }
 
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.slides > li { display: none; -webkit-backface-visibility: hidden; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img { width: 100%; display: block; }
+.slides img { width: 100%; display: block; }
 
 .flex-pauseplay span { text-transform: capitalize; }
 
@@ -129,7 +129,7 @@ html[xmlns] .slides { display: block; }
 
 .flex-control-thumbs .flex-active { opacity: 1; cursor: default; }
 
-.product_slide { margin-bottom: 10px; }
+.product_slide { margin-bottom: 10px; position: relative; }
 
 .product_slide .flex-control-thumbs li { margin: 0 5px; float: none; width: auto; }
 
