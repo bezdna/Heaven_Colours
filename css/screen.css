@@ -51,7 +51,7 @@ header { background: url(../img/bg_header.png) center 0 repeat; height: 80px; bo
 
 /* FlexSlider Necessary Styles
 *********************************/
-.flexslider { margin: 0; padding: 0; }
+.flexslider { margin: 0; padding: 0; position: relative; text-align: center;}
 
 .slides > li { display: none; -webkit-backface-visibility: hidden; }
 
@@ -81,21 +81,21 @@ html[xmlns] .slides { display: block; }
 
 .flexslider .slides { zoom: 1; }
 
-.carousel .slides > li { margin-right: 18px; }
+.carousel .slides > li { margin-right: 18px; text-align: left;}
 
 .carousel .slides li li { list-style: none; padding-bottom: 18px; }
 
 /* Direction Nav */
-.flex-direction-nav { height: 0; margin-top: -20px; margin-top: -1.2rem; position: absolute; text-align: center; left: 50%; margin-left: -10px; }
+.flex-direction-nav { height: 0; margin-top: -20px; margin-top: -2rem; position: absolute; text-align: center; left: 50%; margin-left: -10px; }
 @media only screen and (max-width: 768px) { .flex-direction-nav { display: none; } }
 
 .flex-direction-nav li { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
 
-.flex-direction-nav a { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; text-indent: -999em; overflow: hidden; position: relative; }
+.flex-direction-nav a { position: absolute; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; text-indent: -999em; overflow: hidden; position: relative; }
 
-.flex-direction-nav .flex-prev { background: url('../img/icons-sf6558d85ba.png') 0 0 no-repeat; width: 10px; height: 23px; left: -35px; z-index: 10; }
+.flexslider .flex-prev { position: absolute; background: url('../img/icons-sf6558d85ba.png') 0 0 no-repeat; width: 10px; height: 23px; left: -12px; z-index: 10; text-indent: -999em; overflow: hidden;}
 
-.flex-direction-nav .flex-next { background: url('../img/icons-sf6558d85ba.png') 0 -63px no-repeat; width: 10px; height: 23px; right: -35px; z-index: 10; }
+.flexslider .flex-next { position: absolute; background: url('../img/icons-sf6558d85ba.png') 0 -63px no-repeat; width: 10px; height: 23px; right: -12px; z-index: 10; text-indent: -999em; overflow: hidden;}
 
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
 
@@ -111,7 +111,8 @@ html[xmlns] .slides { display: block; }
 .flex-pauseplay a.flex-play:before { content: '\f003'; }
 
 /* Control Nav */
-.flex-control-nav { width: 100%; text-align: center; padding-top: 16px; padding-top: 1rem; position: relative; z-index: 10; }
+.flex-control-nav-wrapper { width: 100%; text-align: center; padding-top: 16px; padding-top: 1rem; position: relative; z-index: 10;}
+.flex-control-nav { display: inline-block; text-align: center; }
 
 .flex-control-nav li { margin: 0 2px; display: inline-block; zoom: 1; *display: inline; }
 

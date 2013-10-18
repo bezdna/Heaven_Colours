@@ -68,8 +68,8 @@ html[xmlns] .slides {display: block;}
 }
 .flex-direction-nav li { @include inline-block; }
 .flex-direction-nav a  { @include inline-block;  text-indent: -999em; overflow: hidden; position: relative;}
-.flex-direction-nav .flex-prev { @include sized-sprite($icons, "arhor_left"); left: -35px; z-index: 10;}
-.flex-direction-nav .flex-next { @include sized-sprite($icons, "arhor_right"); right: -35px; z-index: 10;}
+.flexslider .flex-prev { @include sized-sprite($icons, "arhor_left"); left: -35px; z-index: 10;}
+.flexslider .flex-next { @include sized-sprite($icons, "arhor_right"); right: -35px; z-index: 10;}
 .flexslider:hover .flex-prev { }
 .flexslider:hover .flex-next { }
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }

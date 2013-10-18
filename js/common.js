@@ -58,10 +58,19 @@ $(document).ready(function() {
         maxItems: 3
       });
     });
+     
 });
 $(window).load(function(){
       $('.product_slide').flexslider({
         animation: "slide",
         controlNav: "thumbnails",
+         directionNav: true,
+        manualControls: ".flex-control-nav .flex"
+      });      
+      
+      $('.flex-control-nav').wrap('<div class="flex-control-nav-wrapper"></div>');
+      $('.flex-direction-nav').css({
+        width: $('.flex-control-nav').outerWidth()+ 'px',
+        marginLeft: '-' + $('.flex-control-nav').outerWidth()/2 + 'px'
       });
     });
