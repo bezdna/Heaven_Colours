@@ -53,75 +53,72 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider { position: relative;  zoom: 1; }
+.flexslider { position: relative; zoom: 1; }
+
 .flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+
 .loading .flex-viewport { max-height: 300px; }
+
 .flexslider .slides { zoom: 1; }
-.carousel .slides>li { margin-right: 18px; }
-.carousel .slides li li{ list-style: none; padding-bottom: 18px;}
+
+.carousel .slides > li { margin-right: 18px; text-align: left;}
+
+.carousel .slides li li { list-style: none; padding-bottom: 18px; }
 
 /* Direction Nav */
-.flex-direction-nav {height: 0; margin-top: -20px; margin-top: -1.2rem; position: absolute; text-align: center; left: 50%; margin-left: -10px;
-@include respond-to(pda) {
-        display: none;
-    }
-}
-.flex-direction-nav li { @include inline-block; }
-.flex-direction-nav a  { @include inline-block;  text-indent: -999em; overflow: hidden; position: relative;}
-.flex-direction-nav .flex-prev { @include sized-sprite($icons, "arhor_left"); left: -35px; z-index: 10;}
-.flex-direction-nav .flex-next { @include sized-sprite($icons, "arhor_right"); right: -35px; z-index: 10;}
-.flexslider:hover .flex-prev { }
-.flexslider:hover .flex-next { }
+.flex-direction-nav { height: 0; margin-top: -20px; margin-top: -2rem; position: absolute; text-align: center; left: 50%; margin-left: -10px; }
+
+.flex-direction-nav li { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
+
+.flex-direction-nav a { position: absolute; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; text-indent: -999em; overflow: hidden; position: relative; }
+
+.flexslider .flex-prev { position: absolute; @include sized-sprite($icons, "arhor_left"); left: -12px; z-index: 10; text-indent: -999em; overflow: hidden;}
+
+.flexslider .flex-next { position: absolute; @include sized-sprite($icons, "arhor_right"); right: -12px; z-index: 10; text-indent: -999em; overflow: hidden;}
+
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
-.flex-direction-nav .flex-disabled {  }
-.flex-direction-nav a:before  {   }
-.flex-direction-nav a.flex-next:before  {  @include sized-sprite($icons, "arhor_right"); }
+
+.flex-direction-nav a.flex-next:before {  @include sized-sprite($icons, "arhor_right"); }
 
 /* Pause/Play */
 .flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
-.flex-pauseplay a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f004'; }
-.flex-pauseplay a:hover  { opacity: 1; }
+
+.flex-pauseplay a:before { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f004'; }
+
+.flex-pauseplay a:hover { opacity: 1; }
+
 .flex-pauseplay a.flex-play:before { content: '\f003'; }
 
 /* Control Nav */
-.flex-control-nav {width: 100%; text-align: center;  padding-top: 16px; padding-top: 1rem; position: relative; z-index: 10;}
-.flex-control-nav li {margin: 0 2px; display: inline-block; zoom: 1; *display: inline;}
-.flex-control-paging li a { display: block; cursor: pointer; color: #937d55; line-height: 1.5;  font-size: 12px;
-    @include sized-sprite($icons, "select_small");
+.flex-control-nav-wrapper { width: 100%; text-align: center; padding-top: 16px; padding-top: 1rem; position: relative; z-index: 10;}
+.flex-control-nav { display: inline-block; text-align: center; }
+
+.flex-control-nav li { margin: 0 2px; display: inline-block; zoom: 1; *display: inline; }
+
+.flex-control-paging li a { display: block; cursor: pointer; color: #937d55; line-height: 1.5; font-size: 12px; @include sized-sprite($icons, "select_small"); }
+
+.flex-control-paging li a.flex-active { cursor: default; color: #aa3c0f; font-weight: bold; }
+
+.flex-control-thumbs { margin: 5px 0 0; position: static; overflow: hidden; }
+
+.flex-control-thumbs li { width: 25%; float: left; margin: 0; }
+
+.flex-control-thumbs img { width: 100%; display: block; opacity: .7; cursor: pointer; }
+
+.flex-control-thumbs img:hover { opacity: 1; }
+
+.flex-control-thumbs .flex-active { opacity: 1; cursor: default; }
+
+.product_slide { margin-bottom: 10px; position: relative; }
+
+.product_slide .flex-control-thumbs li { margin: 0 5px; float: none; width: auto; }
+
+.product_slide .flex-control-thumbs li img { height: 100px; width: auto; display: block; border: 1px solid #000; }
+
+.product_slide .flex-direction-nav { top: 40%; width: 100%; left: 0; margin: 0; 
+    @include respond-to(pda) {
+        display: none;
+    }
 }
-.flex-control-paging li a:hover { }
-.flex-control-paging li a.flex-active { cursor: default; color: #aa3c0f; font-weight: bold;}
-
-
-
-
-.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
-.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
-.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
-.flex-control-thumbs img:hover {opacity: 1;}
-.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
-
-.product_slide {
-    margin-bottom: 10px;
-    position: relative;
-}
-.product_slide .flex-control-thumbs li {
-    margin: 0 5px;
-    float: none;
-    width: auto;
-}
-.product_slide .flex-control-thumbs li img{
-    height: 100px;
-    width: auto;
-    display: block;
-    border: 1px solid #000;
-}
-.product_slide .flex-direction-nav {
-    top: 40%;
-    width: 100%;
-    left: 0;
-    margin: 0;
-
-}
-.product_slide .flex-direction-nav .flex-prev { @include sized-sprite($icons, "arhor_left_2"); left: -35px; z-index: 10; position: absolute;}
-.product_slide .flex-direction-nav .flex-next { @include sized-sprite($icons, "arhor_right_2"); right: -35px; z-index: 10; position: absolute;}
+.product_slide .flex-direction-nav .flex-prev { @include sized-sprite($icons, "arhor_left_2"); left: -35px; position: absolute;}
+.product_slide .flex-direction-nav .flex-next { @include sized-sprite($icons, "arhor_right_2"); right: -35px; position: absolute;}

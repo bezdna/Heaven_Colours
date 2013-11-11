@@ -80,11 +80,11 @@ header {
     padding: 10px 0 10px 20px;
     .product-page & {
       max-width: 100%;
-      padding: 10px 110px 10px 20px;
+      padding: 10px 160px 10px 70px;
       @include box-sizing(border-box);
       @include respond-to(med) {
         max-width: 100%;
-        padding: 10px 80px 10px 20px;
+        padding: 10px 100px 10px 40px;
       }
       @include respond-to(pda) {
         max-width: 100%;

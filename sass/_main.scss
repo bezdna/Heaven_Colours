@@ -6,6 +6,7 @@ body {
     position: relative;
     font-family: 'Open Sans', sans-serif;
     color: #372d2d;
+
 }
 a {
     color: #c23105;
@@ -74,7 +75,7 @@ header {
             }
         }
     }
-    .contact {
+    .contact { 
         float: right;
         padding: 12px 0 0;
         @include respond-to(mob-lan) {
@@ -196,7 +197,7 @@ footer {
                 display: block;
             }
             figcaption {
-                @include rgba-background(rgba(255,255,255,0.45));
+                @include rgba-background(rgba(255,255,255,0.60));
                 @include box-sizing(border-box);
                 position: absolute;
                 width: 100%;
@@ -204,6 +205,11 @@ footer {
                 bottom: 0;
                 padding: 2px 10px;
                 font-weight: bold;
+                @include respond-to(mob-lan) {
+                   font-size: 0.7em;
+                   line-height: 1;
+                   padding: 2px;  
+                }
             }
         }
     }
@@ -216,7 +222,6 @@ footer {
         .icon_kvadrat_big {
             margin-top: -10px;
         }
-
     }
     li {
         list-style: none;
@@ -237,10 +242,8 @@ footer {
                     float: none;
                     width: 100%;
                     @include box-sizing(border-box);
-
                 }
             }
-            
         }
         .cont {
             overflow: hidden;
@@ -248,10 +251,12 @@ footer {
                 position: relative; 
                 padding-left: 35px;
                 padding-top: 3px;
-                background: url(../img/select.png) 0 0 no-repeat;
+                //background: url(../img/select.png) 0 0 no-repeat;
                 span {
                     @include inline-block;
                     position: absolute;
+                    left: 0;
+                    top: 0px;
                 }  
             }
         }
@@ -326,6 +331,10 @@ footer {
     font-style: italic;
     color: #9f320f;
     text-decoration: none;
+    padding-left: 10px;
+    @include respond-to(pda) {
+        padding-left: 0;
+    }
 }
 .sidebar_menu {
     
@@ -341,7 +350,7 @@ footer {
     }
     &>li {
         padding:0 0 10px 45px;
-        background: url(../img/select.png) 0 0 no-repeat;
+        //background: url(../img/select.png) 0 0 no-repeat;
         line-height: 2;
         position: relative;
         font-size: 15px;
@@ -363,7 +372,8 @@ footer {
             @include box-sizing(border-box);
         }
 
-        &.active{
+        &.active,
+        &.hover{
             color: #372d2d;
             @include respond-to(med) {
                 display: block;
@@ -372,7 +382,8 @@ footer {
                 color: #372d2d;
             }
         }
-        &.active ul{
+        &.active ul,
+        &.hover ul{
             position: relative;
             left: 0;
             
@@ -381,12 +392,15 @@ footer {
             text-decoration: none;
             color: #9f320f;
         }
-        &:hover > span{
+        &:hover > span,
+        &.hover > span {
                 @include transform(rotate(1turn));
                 @include opacity(0.5);
             }
         span {
                 position: absolute;
+                left: 0;
+                top: 0;
                 @include inline-block;
                 @include transition(500ms all);
             }
@@ -407,9 +421,9 @@ footer {
                 width: 100%;
             }
         }
-        li {
+        li { 
             list-style: none;
-            margin: 0;
+            margin: 0; 
             line-height: 20px;
             padding-left: 32px;
             background: url(../img/checkbox.png) 0 center no-repeat;
@@ -437,7 +451,13 @@ footer {
         }
     }
 }
-
+.icon_contact_footer {
+    @include sized-sprite($icons, "icon_12_big"); 
+    @include inline-block;
+    position: absolute;
+    left: -65px;
+    top: 0;
+}
 .icon_kvadrat_big {
     @include sized-sprite($icons, "select_big"); 
     @include inline-block;
@@ -446,55 +466,78 @@ footer {
     top: 0;
 }
 .icon_contact {
-    @include sized-sprite($icons, "phone_small"); 
-    left: 7px;
-    top: 4px;
+    @include sized-sprite($icons, "icon_11_small"); 
 }
 .icon_article {
-    @include sized-sprite($icons, "stati"); 
-    left: 6px;
-    top: 6px;
+    @include sized-sprite($icons, "icon_10_small");    
 }
 .icon_veer {
-    @include sized-sprite($icons, "veer"); 
-    left: 1px;
-    top: 4px;
+    @include sized-sprite($icons, "icon_06_small"); 
 }
 .icon_video {
-    @include sized-sprite($icons, "video"); 
-    left: 4px;
-    top: 7px;
+    @include sized-sprite($icons, "icon_09_small"); 
 }
 .icon_money {
-    @include sized-sprite($icons, "money"); 
-    left: 4px;
-    top: 3px;
+    @include sized-sprite($icons, "icon_08_small"); 
 }
 .icon_gift {
-    @include sized-sprite($icons, "gift"); 
-    left: 4px;
-    top: 4px;
+    @include sized-sprite($icons, "icon_07_small"); 
 }
 .icon_buda {
-    @include sized-sprite($icons, "buda"); 
-    left: 4px;
-    top: 4px;
+    @include sized-sprite($icons, "icon_04_small"); 
 }
 .icon_kamen {
-    @include sized-sprite($icons, "kamen"); 
-    left: 4px;
-    top: 5px;
+    @include sized-sprite($icons, "icon_05_small"); 
 }
 .icon_visivka {
-    @include sized-sprite($icons, "visivka"); 
-    left: 4px;
-    top: 3px;
+    @include sized-sprite($icons, "icon_02_small"); 
+}
+.icon_silk {
+    @include sized-sprite($icons, "icon_01_small"); 
 }
 .icon_sosud {
-    @include sized-sprite($icons, "sosud"); 
-    left: 4px;
-    top: 4px;
+    @include sized-sprite($icons, "icon_03_small"); 
 }
+.icon {
+    @include inline-block;
+    position: absolute;
+    left: -65px;
+    top: -13px;
+    .silk & {
+        @include sized-sprite($icons, "icon_02_big"); 
+    }
+    .vishivka & {
+        @include sized-sprite($icons, "icon_01_big"); 
+    }
+    .predmets & {
+        @include sized-sprite($icons, "icon_03_big"); 
+    }
+    .litie & {
+        @include sized-sprite($icons, "icon_04_big"); 
+    }
+    .rezba & {
+        @include sized-sprite($icons, "icon_05_big"); 
+    }
+    .veera & {
+        @include sized-sprite($icons, "icon_06_big"); 
+    }
+    .gift & {
+        @include sized-sprite($icons, "icon_07_big"); 
+    }
+    .money & {
+        @include sized-sprite($icons, "icon_08_big"); 
+    }
+    .video & {
+        @include sized-sprite($icons, "icon_09_big"); 
+    }
+    .article & {
+        @include sized-sprite($icons, "icon_10_big"); 
+    }
+    .contacts & {
+        @include sized-sprite($icons, "icon_11_big"); 
+    }
+}
+
 .icon_faq {
     @include sized-sprite($icons, "question"); 
     @include inline-block;
@@ -525,7 +568,7 @@ footer {
         }
         @include respond-to(mob) {
             height: 90px;
-            overflow: hidden;
+            // overflow: hidden;
         }
         p {
             font-size: 14px;
@@ -534,6 +577,11 @@ footer {
                 line-height: 1;
                 padding-bottom: 4px;
             }
+        }
+        .icon_contact_footer {
+            left: -50px;
+            -webkit-animation: rotation 4s infinite linear;
+            animation: rotation 4s infinite linear;
         }
         .icon_kvadrat_big {
             left: -50px;
@@ -566,6 +614,20 @@ footer {
 
 }
 .product-page {
+    .main_content {
+        //padding: 10px 130px 10px 70px;
+
+    }
+    .slides {
+        //padding: 0 50px;
+        li {
+            //margin: 0 50px;
+            //padding: 0 50px;
+            img {
+                //margin: 0 50px;
+            }
+        }
+    }
     .info {
         text-align: center;
         p {

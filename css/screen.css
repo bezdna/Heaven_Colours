@@ -1,299 +1,1582 @@
-* { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_common\.scss}line{font-family:\0000343}}
+* {
+  margin: 0;
+  padding: 0;
+}
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
-button::-moz-focus-inner { padding: 0; border: 0; }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_common\.scss}line{font-family:\0000345}}
+  * {
+    -webkit-text-size-adjust: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_common\.scss}line{font-family:\0000346}}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
 
-input[type="submit"]::-moz-focus-inner { padding: 0; border: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_common\.scss}line{font-family:\0000347}}
+input[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
 
-body { font-family: Arial,sans-serif; font-weight: normal; font-size: 14px; line-height: 1.4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_common\.scss}line{font-family:\0000349}}
+body {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4;
+}
 
-a img, fieldset { border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_common\.scss}line{font-family:\0000358}}
+a img, fieldset {
+  border: none;
+}
 
-.main_wrap, .header_wrap, .footer_wrap { margin: auto; max-width: 940px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000324}}
+.main_wrap, .header_wrap, .footer_wrap {
+  margin: auto;
+  max-width: 940px;
+}
 
-.l { width: 100%; display: inline-block; }
-.l .l-col1 { float: left; width: 20%; }
-.l .l-col2 { float: right; width: 70%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000329}}
+.l {
+  width: 100%;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000332}}
+.l .l-col1 {
+  float: left;
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000337}}
+.l .l-col2 {
+  float: right;
+  width: 70%;
+}
 
-.layout { background: url(../img/bg_body2.jpg) center 120px repeat; background-attachment: fixed; background-size: cover; padding-bottom: 80px; }
-@media only screen and (max-width: 768px) { .layout { padding-bottom: 160px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000342}}
+.layout {
+  background: url(../img/bg_body2.jpg) center 120px repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000342}}
+  .layout {
+    padding-bottom: 160px;
+  }
+}
 
-header { background: url(../img/bg_header.png) center 0 repeat; height: 80px; border-bottom: 1px solid #baaa61; padding: 0 10px; clear: both; }
-@media only screen and (max-width: 939px) { header { padding: 0 10px; } }
-@media only screen and (max-width: 480px) { header { height: auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000351}}
+header {
+  background: url(../img/bg_header.png) center 0 repeat;
+  height: 80px;
+  border-bottom: 1px solid #baaa61;
+  padding: 0 10px;
+  clear: both;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000351}}
+  header {
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000351}}
+  header {
+    height: auto;
+  }
+}
 
-.main_wrap { padding-left: 90px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; overflow: hidden; *zoom: 1; }
-@media only screen and (max-width: 939px) { .main_wrap { padding-left: 60px; } }
-@media only screen and (max-width: 768px) { .main_wrap { padding-left: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000365}}
+.main_wrap {
+  padding-left: 90px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000365}}
+  .main_wrap {
+    padding-left: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000365}}
+  .main_wrap {
+    padding-left: 0;
+  }
+}
 
-.main_content { float: left; max-width: 571px; padding: 10px 0 10px 20px; }
-.product-page .main_content { max-width: 100%; padding: 10px 110px 10px 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-@media only screen and (max-width: 939px) { .product-page .main_content { max-width: 100%; padding: 10px 80px 10px 20px; } }
-@media only screen and (max-width: 768px) { .product-page .main_content { max-width: 100%; padding: 10px; } }
-@media only screen and (max-width: 939px) { .main_content { max-width: 100%; padding-right: 80px; } }
-@media only screen and (max-width: 768px) { .main_content { padding: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000377}}
+.main_content {
+  float: left;
+  max-width: 571px;
+  padding: 10px 0 10px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000381}}
+.product-page .main_content {
+  max-width: 100%;
+  padding: 10px 160px 10px 70px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000381}}
+  .product-page .main_content {
+    max-width: 100%;
+    padding: 10px 100px 10px 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000381}}
+  .product-page .main_content {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000377}}
+  .main_content {
+    max-width: 100%;
+    padding-right: 80px;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\0000377}}
+  .main_content {
+    padding: 10px;
+  }
+}
 
-.sidebar { float: right; width: 225px; padding-top: 10px; padding-left: 10px; }
-@media only screen and (max-width: 939px) { .sidebar { max-width: 100%; width: auto; padding-right: 80px; float: none; } }
-@media only screen and (max-width: 768px) { .sidebar { padding-right: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\00003103}}
+.sidebar {
+  float: right;
+  width: 225px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\00003103}}
+  .sidebar {
+    max-width: 100%;
+    width: auto;
+    padding-right: 80px;
+    float: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_layouts\.scss}line{font-family:\00003103}}
+  .sidebar {
+    padding-right: 10px;
+  }
+}
 
-/* jQuery FlexSlider v2.2.0 http://www.woothemes.com/flexslider/  Copyright 2012 WooThemes Free to use under the GPLv2 license. http://www.gnu.org/licenses/gpl-2.0.html  Contributing author: Tyler Smith (@mbmufffin) */
+/*
+ * jQuery FlexSlider v2.2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
 /* Browser Resets
 *********************************/
-.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus { outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000318}}
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+  outline: none;
+}
 
-.slides, .flex-control-nav, .flex-direction-nav { margin: 0; padding: 0; list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000321}}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 /* Icon Fonts
 *********************************/
 /* Font-face Icons */
-@font-face { font-family: 'flexslider-icon'; src: url("../fonts/flexslider-icon.eot"); src: url("../fonts/flexslider-icon.eot?#iefix") format("embedded-opentype"), url("../fonts/flexslider-icon.woff") format("woff"), url("../fonts/flexslider-icon.ttf") format("truetype"), url("../fonts/flexslider-icon.svg#flexslider-icon") format("svg"); font-weight: normal; font-style: normal; }
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url("../fonts/flexslider-icon.eot");
+  src: url("../fonts/flexslider-icon.eot?#iefix") format("embedded-opentype"), url("../fonts/flexslider-icon.woff") format("woff"), url("../fonts/flexslider-icon.ttf") format("truetype"), url("../fonts/flexslider-icon.svg#flexslider-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* FlexSlider Necessary Styles
 *********************************/
-.flexslider { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000339}}
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
 
-.slides > li { display: none; -webkit-backface-visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000340}}
+.slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.slides img { width: 100%; display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000341}}
+.slides img {
+  width: 100%;
+  display: block;
+}
 
-.flex-pauseplay span { text-transform: capitalize; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000342}}
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
 
 /* Clearfix for the .slides element */
-.slides:after { content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000345}}
+.slides:after {
+  content: "\0020";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
 
-html[xmlns] .slides { display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000346}}
+html[xmlns] .slides {
+  display: block;
+}
 
-* html .slides { height: 1%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000347}}
+* html .slides {
+  height: 1%;
+}
 
 /* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you include js that eliminates this class on page load */
-.no-js .slides > li:first-child { display: block; }
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000352}}
+.no-js .slides > li:first-child {
+  display: block;
+}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider { position: relative; zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000356}}
+.flexslider {
+  position: relative;
+  zoom: 1;
+}
 
-.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000358}}
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
 
-.loading .flex-viewport { max-height: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000360}}
+.loading .flex-viewport {
+  max-height: 300px;
+}
 
-.flexslider .slides { zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000362}}
+.flexslider .slides {
+  zoom: 1;
+}
 
-.carousel .slides > li { margin-right: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000364}}
+.carousel .slides > li {
+  margin-right: 18px;
+  text-align: left;
+}
 
-.carousel .slides li li { list-style: none; padding-bottom: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000366}}
+.carousel .slides li li {
+  list-style: none;
+  padding-bottom: 18px;
+}
 
 /* Direction Nav */
-.flex-direction-nav { height: 0; margin-top: -20px; margin-top: -1.2rem; position: absolute; text-align: center; left: 50%; margin-left: -10px; }
-@media only screen and (max-width: 768px) { .flex-direction-nav { display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000369}}
+.flex-direction-nav {
+  height: 0;
+  margin-top: -20px;
+  margin-top: -2rem;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  margin-left: -10px;
+}
 
-.flex-direction-nav li { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000371}}
+.flex-direction-nav li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
 
-.flex-direction-nav a { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; text-indent: -999em; overflow: hidden; position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000373}}
+.flex-direction-nav a {
+  position: absolute;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  text-indent: -999em;
+  overflow: hidden;
+  position: relative;
+}
 
-.flex-direction-nav .flex-prev { background: url('../img/icons-sf6558d85ba.png') 0 0 no-repeat; width: 10px; height: 23px; left: -35px; z-index: 10; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000375}}
+.flexslider .flex-prev {
+  position: absolute;
+  background: url('../img/icons-sb66b22fa85.png') 0 0 no-repeat;
+  width: 10px;
+  height: 23px;
+  left: -12px;
+  z-index: 10;
+  text-indent: -999em;
+  overflow: hidden;
+}
 
-.flex-direction-nav .flex-next { background: url('../img/icons-sf6558d85ba.png') 0 -63px no-repeat; width: 10px; height: 23px; right: -35px; z-index: 10; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000377}}
+.flexslider .flex-next {
+  position: absolute;
+  background: url('../img/icons-sb66b22fa85.png') 0 -63px no-repeat;
+  width: 10px;
+  height: 23px;
+  right: -12px;
+  z-index: 10;
+  text-indent: -999em;
+  overflow: hidden;
+}
 
-.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000379}}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+  opacity: 1;
+}
 
-.flex-direction-nav a.flex-next:before { background: url('../img/icons-sf6558d85ba.png') 0 -63px no-repeat; width: 10px; height: 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000381}}
+.flex-direction-nav a.flex-next:before {
+  background: url('../img/icons-sb66b22fa85.png') 0 -63px no-repeat;
+  width: 10px;
+  height: 23px;
+}
 
 /* Pause/Play */
-.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000384}}
+.flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
 
-.flex-pauseplay a:before { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f004'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000386}}
+.flex-pauseplay a:before {
+  font-family: "flexslider-icon";
+  font-size: 20px;
+  display: inline-block;
+  content: '\f004';
+}
 
-.flex-pauseplay a:hover { opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000388}}
+.flex-pauseplay a:hover {
+  opacity: 1;
+}
 
-.flex-pauseplay a.flex-play:before { content: '\f003'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000390}}
+.flex-pauseplay a.flex-play:before {
+  content: '\f003';
+}
 
 /* Control Nav */
-.flex-control-nav { width: 100%; text-align: center; padding-top: 16px; padding-top: 1rem; position: relative; z-index: 10; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000393}}
+.flex-control-nav-wrapper {
+  width: 100%;
+  text-align: center;
+  padding-top: 16px;
+  padding-top: 1rem;
+  position: relative;
+  z-index: 10;
+}
 
-.flex-control-nav li { margin: 0 2px; display: inline-block; zoom: 1; *display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000394}}
+.flex-control-nav {
+  display: inline-block;
+  text-align: center;
+}
 
-.flex-control-paging li a { display: block; cursor: pointer; color: #937d55; line-height: 1.5; font-size: 12px; background: url('../img/icons-sf6558d85ba.png') 0 -984px no-repeat; width: 17px; height: 17px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000396}}
+.flex-control-nav li {
+  margin: 0 2px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
 
-.flex-control-paging li a.flex-active { cursor: default; color: #aa3c0f; font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\0000398}}
+.flex-control-paging li a {
+  display: block;
+  cursor: pointer;
+  color: #937d55;
+  line-height: 1.5;
+  font-size: 12px;
+  background: url('../img/icons-sb66b22fa85.png') 0 -2034px no-repeat;
+  width: 17px;
+  height: 17px;
+}
 
-.flex-control-thumbs { margin: 5px 0 0; position: static; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003100}}
+.flex-control-paging li a.flex-active {
+  cursor: default;
+  color: #aa3c0f;
+  font-weight: bold;
+}
 
-.flex-control-thumbs li { width: 25%; float: left; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003102}}
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
 
-.flex-control-thumbs img { width: 100%; display: block; opacity: .7; cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003104}}
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
 
-.flex-control-thumbs img:hover { opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003106}}
+.flex-control-thumbs img {
+  width: 100%;
+  display: block;
+  opacity: .7;
+  cursor: pointer;
+}
 
-.flex-control-thumbs .flex-active { opacity: 1; cursor: default; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003108}}
+.flex-control-thumbs img:hover {
+  opacity: 1;
+}
 
-.product_slide { margin-bottom: 10px; position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003110}}
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default;
+}
 
-.product_slide .flex-control-thumbs li { margin: 0 5px; float: none; width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003112}}
+.product_slide {
+  margin-bottom: 10px;
+  position: relative;
+}
 
-.product_slide .flex-control-thumbs li img { height: 100px; width: auto; display: block; border: 1px solid #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003114}}
+.product_slide .flex-control-thumbs li {
+  margin: 0 5px;
+  float: none;
+  width: auto;
+}
 
-.product_slide .flex-direction-nav { top: 40%; width: 100%; left: 0; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003116}}
+.product_slide .flex-control-thumbs li img {
+  height: 100px;
+  width: auto;
+  display: block;
+  border: 1px solid #000;
+}
 
-.product_slide .flex-direction-nav .flex-prev { background: url('../img/icons-sf6558d85ba.png') 0 -33px no-repeat; width: 28px; height: 20px; left: -35px; z-index: 10; position: absolute; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003118}}
+.product_slide .flex-direction-nav {
+  top: 40%;
+  width: 100%;
+  left: 0;
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003118}}
+  .product_slide .flex-direction-nav {
+    display: none;
+  }
+}
 
-.product_slide .flex-direction-nav .flex-next { background: url('../img/icons-sf6558d85ba.png') 0 -96px no-repeat; width: 26px; height: 19px; right: -35px; z-index: 10; position: absolute; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003123}}
+.product_slide .flex-direction-nav .flex-prev {
+  background: url('../img/icons-sb66b22fa85.png') 0 -33px no-repeat;
+  width: 28px;
+  height: 20px;
+  left: -35px;
+  position: absolute;
+}
 
-body { position: relative; font-family: 'Open Sans', sans-serif; color: #372d2d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_flexslider\.scss}line{font-family:\00003124}}
+.product_slide .flex-direction-nav .flex-next {
+  background: url('../img/icons-sb66b22fa85.png') 0 -96px no-repeat;
+  width: 26px;
+  height: 19px;
+  right: -35px;
+  position: absolute;
+}
 
-a { color: #c23105; }
-a:hover { text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\000035}}
+body {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  color: #372d2d;
+}
 
-header .logo { float: left; position: relative; padding-left: 70px; line-height: 70px; vertical-align: middle; font-weight: 600; text-transform: uppercase; font-size: 21px; }
-@media only screen and (max-width: 939px) { header .logo { padding-top: 5px; line-height: 30px; position: absolute; padding-right: 260px; } }
-@media only screen and (max-width: 768px) { header .logo { line-height: 16px; } }
-@media only screen and (max-width: 480px) { header .logo { float: none; position: relative; padding-right: 0; height: 74px; } }
-header .logo .icon_logo { background: url('../img/icons-sf6558d85ba.png') 0 -284px no-repeat; width: 65px; height: 65px; position: absolute; left: 0; top: 6px; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; z-index: 200; }
-@media only screen and (max-width: 768px) { header .logo .name { font-size: 16px; } }
-header .logo a { color: #372d2d; text-decoration: none; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding-left: 40px; }
-@media only screen and (max-width: 768px) { header .logo a { padding-left: 0; } }
-header .logo .logo2 { background: url('../img/icons-sf6558d85ba.png') 0 -359px no-repeat; width: 30px; height: 379px; position: absolute; top: 100%; z-index: 100; display: block; left: 20px; margin-top: 20px; }
-@media only screen and (max-width: 768px) { header .logo .logo2 { display: none; } }
-header .contact { float: right; padding: 12px 0 0; }
-@media only screen and (max-width: 480px) { header .contact { float: none; padding: 0; height: 80px; margin: auto; width: 200px; position: relative; left: 25px; } }
-@media only screen and (max-width: 320px) { header .contact { float: none; padding: 0; height: 80px; margin: auto; position: relative; left: 44px; } }
-header .contact .phone { position: relative; padding-top: 0.6rem; }
-header .contact .phone .icon_kvadrat_big { top: 6px; left: -55px; }
-header .contact .phone:hover .ico-phone { -webkit-animation: rotation_ring 100ms alternate infinite linear; animation: rotation_ring 100ms alternate infinite linear; }
-header .contact .phone p { padding: 0 0 0.1rem; margin: 0; font-size: 14px; font-weight: 600; vertical-align: baseline; }
-header .contact .phone p .name { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; width: 4rem; font-weight: normal; vertical-align: baseline; }
-header .contact .ico-phone { background: url('../img/icons-sf6558d85ba.png') 0 -785px no-repeat; width: 25px; height: 38px; position: absolute; left: -43px; top: 9px; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000311}}
+a {
+  color: #c23105;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000313}}
+a:hover {
+  text-decoration: none;
+}
 
-footer { background: url(../img/bg_footer.png) center 100% repeat; position: absolute; bottom: 0; width: 100%; height: 79px; overflow: hidden; border-top: 1px solid #baaa61; }
-footer .copyright { float: right; }
-@media only screen and (max-width: 768px) { footer { height: 158px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000318}}
+header .logo {
+  float: left;
+  position: relative;
+  padding-left: 70px;
+  line-height: 70px;
+  vertical-align: middle;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000318}}
+  header .logo {
+    padding-top: 5px;
+    line-height: 30px;
+    position: absolute;
+    padding-right: 260px;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000318}}
+  header .logo {
+    line-height: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000318}}
+  header .logo {
+    float: none;
+    position: relative;
+    padding-right: 0;
+    height: 74px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000342}}
+header .logo .icon_logo {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1407px no-repeat;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  z-index: 200;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000350}}
+  header .logo .name {
+    font-size: 16px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000356}}
+header .logo a {
+  color: #372d2d;
+  text-decoration: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  padding-left: 40px;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000356}}
+  header .logo a {
+    padding-left: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000365}}
+header .logo .logo2 {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1482px no-repeat;
+  width: 30px;
+  height: 379px;
+  position: absolute;
+  top: 100%;
+  z-index: 100;
+  display: block;
+  left: 20px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000365}}
+  header .logo .logo2 {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000378}}
+header .contact {
+  float: right;
+  padding: 12px 0 0;
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000378}}
+  header .contact {
+    float: none;
+    padding: 0;
+    height: 80px;
+    margin: auto;
+    width: 200px;
+    position: relative;
+    left: 25px;
+  }
+}
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000378}}
+  header .contact {
+    float: none;
+    padding: 0;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    left: 44px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\0000398}}
+header .contact .phone {
+  position: relative;
+  padding-top: 0.6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003101}}
+header .contact .phone .icon_kvadrat_big {
+  top: 6px;
+  left: -55px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003106}}
+header .contact .phone:hover .ico-phone {
+  -webkit-animation: rotation_ring 100ms alternate infinite linear;
+  animation: rotation_ring 100ms alternate infinite linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003111}}
+header .contact .phone p {
+  padding: 0 0 0.1rem;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: baseline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003117}}
+header .contact .phone p .name {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 4rem;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003125}}
+header .contact .ico-phone {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1871px no-repeat;
+  width: 25px;
+  height: 38px;
+  position: absolute;
+  left: -43px;
+  top: 9px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
 
-.main_image { background: url('../img/rgbapng/ffffff73-5.png?1378237643'); background: rgba(255, 255, 255, 0.45); border: 1px solid #c5b57d; overflow: hidden; margin-bottom: 10px; }
-.main_image h2 { overflow: hidden; min-width: 120px; text-align: center; padding: 50px 25px 0; font-size: 18px; font-weight: 600; text-transform: uppercase; }
-.main_image h2 .icon_main-image { background: url('../img/icons-sf6558d85ba.png') 0 -226px no-repeat; width: 50px; height: 48px; display: block; margin: 40px auto 0; }
-@media only screen and (max-width: 768px) { .main_image h2 .icon_main-image { margin-top: 20px; margin-bottom: 15px; } }
-@media only screen and (max-width: 768px) { .main_image h2 { padding: 20px; } }
-.main_image img { max-width: 66%; display: block; float: right; border-left: 1px solid #d1c7a7; }
-@media only screen and (max-width: 768px) { .main_image img { min-width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003135}}
+footer {
+  background: url(../img/bg_footer.png) center 100% repeat;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 79px;
+  overflow: hidden;
+  border-top: 1px solid #baaa61;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003143}}
+footer .copyright {
+  float: right;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003135}}
+  footer {
+    height: 158px;
+  }
+}
 
-.slider ul li figure { position: relative; border: 1px solid #baaa61; }
-.slider ul li figure img { display: block; }
-.slider ul li figure figcaption { background: url('../img/rgbapng/ffffff73-5.png?1378237643'); background: rgba(255, 255, 255, 0.45); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: absolute; width: 100%; color: #372d2d; bottom: 0; padding: 2px 10px; font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003154}}
+.main_image {
+  background: url('../img/rgbapng/ffffff73-5.png?1378237643');
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid #c5b57d;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003159}}
+.main_image h2 {
+  overflow: hidden;
+  min-width: 120px;
+  text-align: center;
+  padding: 50px 25px 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003167}}
+.main_image h2 .icon_main-image {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1349px no-repeat;
+  width: 50px;
+  height: 48px;
+  display: block;
+  margin: 40px auto 0;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003167}}
+  .main_image h2 .icon_main-image {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003159}}
+  .main_image h2 {
+    padding: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003180}}
+.main_image img {
+  max-width: 66%;
+  display: block;
+  float: right;
+  border-left: 1px solid #d1c7a7;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003180}}
+  .main_image img {
+    min-width: 100%;
+  }
+}
 
-.block { padding-top: 20px; }
-.block article { padding-bottom: 32px; padding-bottom: 2rem; }
-.block article .icon_kvadrat_big { margin-top: -10px; }
-.block li { list-style: none; overflow: hidden; *zoom: 1; padding-bottom: 10px; }
-.block li .img { float: left; margin-right: 20px; }
-@media only screen and (max-width: 480px) { .block li .img { float: none; width: 100%; margin-bottom: 10px; } }
-.block li .img img { display: block; border: 1px solid #baaa61; }
-@media only screen and (max-width: 480px) { .block li .img img { float: none; width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } }
-.block li .cont { overflow: hidden; }
-.block li .cont h2 { position: relative; padding-left: 35px; padding-top: 3px; background: url(../img/select.png) 0 0 no-repeat; }
-.block li .cont h2 span { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; position: absolute; }
-.block h2 { color: #9f320f; font-size: 18px; font-weight: 600; font-style: italic; position: relative; padding-bottom: 16px; padding-bottom: 1rem; }
-.block h2 .icon_footer_adress { left: -65px; top: 50%; margin-top: -23px; }
-.block a { color: #9f320f; text-decoration: none; }
-.block a:hover { text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003193}}
+.slider ul li figure {
+  position: relative;
+  border: 1px solid #baaa61;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003196}}
+.slider ul li figure img {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003199}}
+.slider ul li figure figcaption {
+  background: url('../img/rgbapng/ffffff99-5.png?1379143545');
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  color: #372d2d;
+  bottom: 0;
+  padding: 2px 10px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003199}}
+  .slider ul li figure figcaption {
+    font-size: 0.7em;
+    line-height: 1;
+    padding: 2px;
+  }
+}
 
-.map { margin-bottom: 20px; border: 1px solid #937d55; }
-.map img { max-width: 100%; width: 100%; display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003217}}
+.block {
+  padding-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003219}}
+.block article {
+  padding-bottom: 32px;
+  padding-bottom: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003222}}
+.block article .icon_kvadrat_big {
+  margin-top: -10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003226}}
+.block li {
+  list-style: none;
+  overflow: hidden;
+  *zoom: 1;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003230}}
+.block li .img {
+  float: left;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003230}}
+  .block li .img {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003238}}
+.block li .img img {
+  display: block;
+  border: 1px solid #baaa61;
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003238}}
+  .block li .img img {
+    float: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003248}}
+.block li .cont {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003250}}
+.block li .cont h2 {
+  position: relative;
+  padding-left: 35px;
+  padding-top: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003255}}
+.block li .cont h2 span {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003264}}
+.block h2 {
+  color: #9f320f;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  position: relative;
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003272}}
+.block h2 .icon_footer_adress {
+  left: -65px;
+  top: 50%;
+  margin-top: -23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003279}}
+.block a {
+  color: #9f320f;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003282}}
+.block a:hover {
+  text-decoration: underline;
+}
 
-.contact { padding-bottom: 20px; }
-.contact h3 { font-style: italic; font-weight: 600; }
-.contact p { margin: 2px 0 12px; margin: 0.1rem 0 0.8rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003287}}
+.map {
+  margin-bottom: 20px;
+  border: 1px solid #937d55;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003290}}
+.map img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
 
-.faq h2 { position: relative; font-weight: 600; font-style: italic; color: #a0320f; }
-.faq dt { font-weight: 600; font-style: italic; font-size: 16px; padding: 10px 0; }
-.faq dd { padding: 0 30px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003296}}
+.contact {
+  padding-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003298}}
+.contact h3 {
+  font-style: italic;
+  font-weight: 600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003302}}
+.contact p {
+  margin: 2px 0 12px;
+  margin: 0.1rem 0 0.8rem;
+}
 
-.toggleMenu { line-height: 1.4; font-size: 20px; font-weight: 600; font-style: italic; color: #9f320f; text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003311}}
+.faq h2 {
+  position: relative;
+  font-weight: 600;
+  font-style: italic;
+  color: #a0320f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003317}}
+.faq dt {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 16px;
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003323}}
+.faq dd {
+  padding: 0 30px 10px;
+}
 
-.sidebar_menu { list-style: none; }
-@media only screen and (max-width: 939px) { .sidebar_menu { text-align: justify; margin-left: 10px; }
-  .sidebar_menu:after { content: ""; width: 100%; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; } }
-.sidebar_menu > li { padding: 0 0 10px 45px; background: url(../img/select.png) 0 0 no-repeat; line-height: 2; position: relative; font-size: 15px; font-weight: 600; font-style: italic; }
-@media only screen and (max-width: 939px) { .sidebar_menu > li { width: 25%; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; vertical-align: top; line-height: 1.2; padding: 5px 0 15px 45px; } }
-@media only screen and (max-width: 768px) { .sidebar_menu > li { width: 39%; } }
-@media only screen and (max-width: 480px) { .sidebar_menu > li { width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } }
-.sidebar_menu > li.active { color: #372d2d; }
-@media only screen and (max-width: 939px) { .sidebar_menu > li.active { display: block; } }
-.sidebar_menu > li.active a { color: #372d2d; }
-.sidebar_menu > li.active ul { position: relative; left: 0; }
-.sidebar_menu > li > a { text-decoration: none; color: #9f320f; }
-.sidebar_menu > li:hover > span { -webkit-transform: rotate(1turn); -moz-transform: rotate(1turn); -ms-transform: rotate(1turn); -o-transform: rotate(1turn); transform: rotate(1turn); filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; }
-.sidebar_menu > li span { position: absolute; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; -webkit-transition: 500ms all; -moz-transition: 500ms all; -o-transition: 500ms all; transition: 500ms all; }
-.sidebar_menu > li ul { margin: 5px 0 0px -32px; padding: 0; position: absolute; left: 999em; -webkit-transition: none; -moz-transition: none; -o-transition: none; transition: none; }
-@media only screen and (max-width: 939px) { .sidebar_menu > li ul { width: 400%; margin-top: 15px; } }
-@media only screen and (max-width: 768px) { .sidebar_menu > li ul { width: 250%; } }
-@media only screen and (max-width: 480px) { .sidebar_menu > li ul { width: 100%; } }
-.sidebar_menu > li li { list-style: none; margin: 0; line-height: 20px; padding-left: 32px; background: url(../img/checkbox.png) 0 center no-repeat; color: #000; font-size: 12px; }
-@media only screen and (max-width: 939px) { .sidebar_menu > li li { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; } }
-@media only screen and (max-width: 480px) { .sidebar_menu > li li { display: block; } }
-.sidebar_menu > li li:hover, .sidebar_menu > li li.active { background: url(../img/checkbox_check.png) 0 center no-repeat; }
-.sidebar_menu > li li a { color: #000; font-weight: normal; font-style: normal; text-decoration: none; }
-.sidebar_menu > li li a:hover { text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003327}}
+.toggleMenu {
+  line-height: 1.4;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  color: #9f320f;
+  text-decoration: none;
+  padding-left: 10px;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003327}}
+  .toggleMenu {
+    padding-left: 0;
+  }
+}
 
-.icon_kvadrat_big { background: url('../img/icons-sf6558d85ba.png') 0 -927px no-repeat; width: 48px; height: 47px; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; position: absolute; left: -65px; top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003339}}
+.sidebar_menu {
+  list-style: none;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003339}}
+  .sidebar_menu {
+    text-align: justify;
+    margin-left: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003345}}
+  .sidebar_menu:after {
+    content: "";
+    width: 100%;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003351}}
+.sidebar_menu > li {
+  padding: 0 0 10px 45px;
+  line-height: 2;
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003351}}
+  .sidebar_menu > li {
+    width: 25%;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+    line-height: 1.2;
+    padding: 5px 0 15px 45px;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003351}}
+  .sidebar_menu > li {
+    width: 39%;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003351}}
+  .sidebar_menu > li {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003376}}
+.sidebar_menu > li.active, .sidebar_menu > li.hover {
+  color: #372d2d;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003376}}
+  .sidebar_menu > li.active, .sidebar_menu > li.hover {
+    display: block;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003381}}
+.sidebar_menu > li.active a, .sidebar_menu > li.hover a {
+  color: #372d2d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003386}}
+.sidebar_menu > li.active ul, .sidebar_menu > li.hover ul {
+  position: relative;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003391}}
+.sidebar_menu > li > a {
+  text-decoration: none;
+  color: #9f320f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003396}}
+.sidebar_menu > li:hover > span, .sidebar_menu > li.hover > span {
+  -webkit-transform: rotate(1turn);
+  -moz-transform: rotate(1turn);
+  -ms-transform: rotate(1turn);
+  -o-transform: rotate(1turn);
+  transform: rotate(1turn);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003400}}
+.sidebar_menu > li span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-transition: 500ms all;
+  -moz-transition: 500ms all;
+  -o-transition: 500ms all;
+  transition: 500ms all;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003407}}
+.sidebar_menu > li ul {
+  margin: 5px 0 0px -32px;
+  padding: 0;
+  position: absolute;
+  left: 999em;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003407}}
+  .sidebar_menu > li ul {
+    width: 400%;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003407}}
+  .sidebar_menu > li ul {
+    width: 250%;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003407}}
+  .sidebar_menu > li ul {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003424}}
+.sidebar_menu > li li {
+  list-style: none;
+  margin: 0;
+  line-height: 20px;
+  padding-left: 32px;
+  background: url(../img/checkbox.png) 0 center no-repeat;
+  color: #000;
+  font-size: 12px;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003424}}
+  .sidebar_menu > li li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003424}}
+  .sidebar_menu > li li {
+    display: block;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003439}}
+.sidebar_menu > li li:hover, .sidebar_menu > li li.active {
+  background: url(../img/checkbox_check.png) 0 center no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003442}}
+.sidebar_menu > li li a {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003447}}
+.sidebar_menu > li li a:hover {
+  text-decoration: underline;
+}
 
-.icon_contact { background: url('../img/icons-sf6558d85ba.png') 0 -833px no-repeat; width: 17px; height: 26px; left: 7px; top: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003454}}
+.icon_contact_footer {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1247px no-repeat;
+  width: 50px;
+  height: 50px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  position: absolute;
+  left: -65px;
+  top: 0;
+}
 
-.icon_article { background: url('../img/icons-sf6558d85ba.png') 0 -1045px no-repeat; width: 19px; height: 23px; left: 6px; top: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003461}}
+.icon_kvadrat_big {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1977px no-repeat;
+  width: 48px;
+  height: 47px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  position: absolute;
+  left: -65px;
+  top: 0;
+}
 
-.icon_veer { background: url('../img/icons-sf6558d85ba.png') 0 -1078px no-repeat; width: 29px; height: 25px; left: 1px; top: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003468}}
+.icon_contact {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1205px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.icon_video { background: url('../img/icons-sf6558d85ba.png') 0 -1113px no-repeat; width: 24px; height: 19px; left: 4px; top: 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003471}}
+.icon_article {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1103px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.icon_money { background: url('../img/icons-sf6558d85ba.png') 0 -748px no-repeat; width: 24px; height: 27px; left: 4px; top: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003474}}
+.icon_veer {
+  background: url('../img/icons-sb66b22fa85.png') 0 -695px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.icon_gift { background: url('../img/icons-sf6558d85ba.png') 0 -161px no-repeat; width: 24px; height: 23px; left: 4px; top: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003477}}
+.icon_video {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1001px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.icon_buda { background: url('../img/icons-sf6558d85ba.png') 0 -125px no-repeat; width: 24px; height: 26px; left: 4px; top: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003480}}
+.icon_money {
+  background: url('../img/icons-sb66b22fa85.png') 0 -899px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.icon_kamen { background: url('../img/icons-sf6558d85ba.png') 0 -194px no-repeat; width: 22px; height: 22px; left: 4px; top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003483}}
+.icon_gift {
+  background: url('../img/icons-sb66b22fa85.png') 0 -797px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.icon_visivka { background: url('../img/icons-sf6558d85ba.png') 0 -1142px no-repeat; width: 24px; height: 26px; left: 4px; top: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003486}}
+.icon_buda {
+  background: url('../img/icons-sb66b22fa85.png') 0 -491px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.icon_sosud { background: url('../img/icons-sf6558d85ba.png') 0 -1011px no-repeat; width: 24px; height: 24px; left: 4px; top: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003489}}
+.icon_kamen {
+  background: url('../img/icons-sb66b22fa85.png') 0 -593px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.icon_faq { background: url('../img/icons-sf6558d85ba.png') 0 -869px no-repeat; width: 49px; height: 48px; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; position: absolute; left: -65px; top: -10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003492}}
+.icon_visivka {
+  background: url('../img/icons-sb66b22fa85.png') 0 -287px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.footer_wrap { padding-top: 17px; padding-left: 90px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-@media only screen and (max-width: 939px) { .footer_wrap { padding-left: 60px; } }
-.footer_wrap .footer_adress { float: left; padding: 5px 0 0 20px; position: relative; }
-@media only screen and (max-width: 939px) { .footer_wrap .footer_adress { max-width: 425px; padding-top: 0; } }
-@media only screen and (max-width: 768px) { .footer_wrap .footer_adress { float: none; margin: auto; } }
-@media only screen and (max-width: 320px) { .footer_wrap .footer_adress { height: 90px; overflow: hidden; } }
-.footer_wrap .footer_adress p { font-size: 14px; font-weight: 600; }
-@media only screen and (max-width: 768px) { .footer_wrap .footer_adress p { line-height: 1; padding-bottom: 4px; } }
-.footer_wrap .footer_adress .icon_kvadrat_big { left: -50px; -webkit-animation: rotation 4s infinite linear; animation: rotation 4s infinite linear; }
-.footer_wrap .copyright { background: url(../img/bg_copyright.png) 0 0 no-repeat; margin-top: -17px; font-size: 12px; padding: 17px 30px 17px 30px; width: 170px; }
-@media only screen and (max-width: 768px) { .footer_wrap .copyright { margin: auto; float: none; clear: both; padding-left: 20px; padding-right: 80px; } }
-@media only screen and (max-width: 480px) { .footer_wrap .copyright { padding-top: 7px; } }
-@media only screen and (max-width: 320px) { .footer_wrap .copyright { padding-top: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003495}}
+.icon_silk {
+  background: url('../img/icons-sb66b22fa85.png') 0 -185px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-.product-page .info { text-align: center; }
-.product-page .info p { margin-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003498}}
+.icon_sosud {
+  background: url('../img/icons-sb66b22fa85.png') 0 -389px no-repeat;
+  width: 32px;
+  height: 32px;
+}
 
-@-webkit-keyframes rotation { from { -webkit-transform: rotate(0deg); }
-  to { -webkit-transform: rotate(360deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003501}}
+.icon {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  position: absolute;
+  left: -65px;
+  top: -13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003506}}
+.silk .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -227px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003509}}
+.vishivka .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -125px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003512}}
+.predmets .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -329px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003515}}
+.litie .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -431px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003518}}
+.rezba .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -533px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003521}}
+.veera .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -635px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003524}}
+.gift .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -737px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003527}}
+.money .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -839px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003530}}
+.video .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -941px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003533}}
+.article .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1043px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003536}}
+.contacts .icon {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1145px no-repeat;
+  width: 50px;
+  height: 50px;
+}
 
-@keyframes rotation { from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003541}}
+.icon_faq {
+  background: url('../img/icons-sb66b22fa85.png') 0 -1919px no-repeat;
+  width: 49px;
+  height: 48px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  position: absolute;
+  left: -65px;
+  top: -10px;
+}
 
-@-webkit-keyframes rotation_ring { from { -webkit-transform: rotate(0deg); }
-  to { -webkit-transform: rotate(15deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003549}}
+.footer_wrap {
+  padding-top: 17px;
+  padding-left: 90px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003549}}
+  .footer_wrap {
+    padding-left: 60px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003557}}
+.footer_wrap .footer_adress {
+  float: left;
+  padding: 5px 0 0 20px;
+  position: relative;
+}
+@media only screen and (max-width: 939px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003557}}
+  .footer_wrap .footer_adress {
+    max-width: 425px;
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003557}}
+  .footer_wrap .footer_adress {
+    float: none;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003557}}
+  .footer_wrap .footer_adress {
+    height: 90px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003573}}
+.footer_wrap .footer_adress p {
+  font-size: 14px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003573}}
+  .footer_wrap .footer_adress p {
+    line-height: 1;
+    padding-bottom: 4px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003581}}
+.footer_wrap .footer_adress .icon_contact_footer {
+  left: -50px;
+  -webkit-animation: rotation 4s infinite linear;
+  animation: rotation 4s infinite linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003586}}
+.footer_wrap .footer_adress .icon_kvadrat_big {
+  left: -50px;
+  -webkit-animation: rotation 4s infinite linear;
+  animation: rotation 4s infinite linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003594}}
+.footer_wrap .copyright {
+  background: url(../img/bg_copyright.png) 0 0 no-repeat;
+  margin-top: -17px;
+  font-size: 12px;
+  padding: 17px 30px 17px 30px;
+  width: 170px;
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003594}}
+  .footer_wrap .copyright {
+    margin: auto;
+    float: none;
+    clear: both;
+    padding-left: 20px;
+    padding-right: 80px;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003594}}
+  .footer_wrap .copyright {
+    padding-top: 7px;
+  }
+}
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003594}}
+  .footer_wrap .copyright {
+    padding-top: 0;
+  }
+}
 
-@keyframes rotation_ring { from { transform: rotate(0deg); }
-  to { transform: rotate(15deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003631}}
+.product-page .info {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003633}}
+.product-page .info p {
+  margin-bottom: 1em;
+}
 
-.button { padding: 9px 14px; font-size: 12px; line-height: normal; border-radius: 5px; display: inline-block; }
+@-webkit-keyframes rotation {
+  /* line 640, ../sass/_main.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
 
-.button_large { font-size: 30px; }
+  /* line 641, ../sass/_main.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
 
-.greenbutton { padding: 9px 14px; font-size: 12px; line-height: normal; border-radius: 5px; background: green; color: #fff; text-shadow: 0 -1px 0 #000; display: inline-block; }
-.greenbutton i { width: 10px; height: 10px; background: pink; display: inline-block; margin-right: 10px; }
+@keyframes rotation {
+  /* line 644, ../sass/_main.scss */
+  from {
+    transform: rotate(0deg);
+  }
 
-.greenbutton_large { font-size: 30px; }
+  /* line 645, ../sass/_main.scss */
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotation_ring {
+  /* line 649, ../sass/_main.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 650, ../sass/_main.scss */
+  to {
+    -webkit-transform: rotate(15deg);
+  }
+}
+
+@keyframes rotation_ring {
+  /* line 653, ../sass/_main.scss */
+  from {
+    transform: rotate(0deg);
+  }
+
+  /* line 654, ../sass/_main.scss */
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_styledocco\.scss}line{font-family:\000038}}
+.button {
+  padding: 9px 14px;
+  font-size: 12px;
+  line-height: normal;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_styledocco\.scss}line{font-family:\0000318}}
+.button_large {
+  font-size: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_styledocco\.scss}line{font-family:\0000328}}
+.greenbutton {
+  padding: 9px 14px;
+  font-size: 12px;
+  line-height: normal;
+  border-radius: 5px;
+  background: green;
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_styledocco\.scss}line{font-family:\0000337}}
+.greenbutton i {
+  width: 10px;
+  height: 10px;
+  background: pink;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_styledocco\.scss}line{font-family:\0000348}}
+.greenbutton_large {
+  font-size: 30px;
+}
