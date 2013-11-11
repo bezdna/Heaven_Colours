@@ -833,6 +833,7 @@ footer .copyright {
   bottom: 0;
   padding: 2px 10px;
   font-weight: bold;
+  text-decoration: none;
 }
 @media only screen and (max-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003199}}
@@ -843,46 +844,46 @@ footer .copyright {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003218}}
 .block {
   padding-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003220}}
 .block article {
   padding-bottom: 32px;
   padding-bottom: 2rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003223}}
 .block article .icon_kvadrat_big {
   margin-top: -10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003227}}
 .block li {
   list-style: none;
   overflow: hidden;
   *zoom: 1;
   padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003231}}
 .block li .img {
   float: left;
   margin-right: 20px;
 }
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003231}}
   .block li .img {
     float: none;
     width: 100%;
     margin-bottom: 10px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003239}}
 .block li .img img {
   display: block;
   border: 1px solid #baaa61;
 }
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003239}}
   .block li .img img {
     float: none;
     width: 100%;
@@ -891,17 +892,17 @@ footer .copyright {
     box-sizing: border-box;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003249}}
 .block li .cont {
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003251}}
 .block li .cont h2 {
   position: relative;
   padding-left: 35px;
   padding-top: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003256}}
 .block li .cont h2 span {
   display: -moz-inline-stack;
   display: inline-block;
@@ -913,7 +914,7 @@ footer .copyright {
   left: 0;
   top: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003265}}
 .block h2 {
   color: #9f320f;
   font-size: 18px;
@@ -923,69 +924,69 @@ footer .copyright {
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003273}}
 .block h2 .icon_footer_adress {
   left: -65px;
   top: 50%;
   margin-top: -23px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003280}}
 .block a {
   color: #9f320f;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003283}}
 .block a:hover {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003288}}
 .map {
   margin-bottom: 20px;
   border: 1px solid #937d55;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003291}}
 .map img {
   max-width: 100%;
   width: 100%;
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003297}}
 .contact {
   padding-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003299}}
 .contact h3 {
   font-style: italic;
   font-weight: 600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003303}}
 .contact p {
   margin: 2px 0 12px;
   margin: 0.1rem 0 0.8rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003312}}
 .faq h2 {
   position: relative;
   font-weight: 600;
   font-style: italic;
   color: #a0320f;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003318}}
 .faq dt {
   font-weight: 600;
   font-style: italic;
   font-size: 16px;
   padding: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003324}}
 .faq dd {
   padding: 0 30px 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003328}}
 .toggleMenu {
   line-height: 1.4;
   font-size: 20px;
@@ -996,23 +997,23 @@ footer .copyright {
   padding-left: 10px;
 }
 @media only screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003328}}
   .toggleMenu {
     padding-left: 0;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003340}}
 .sidebar_menu {
   list-style: none;
 }
 @media only screen and (max-width: 939px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003340}}
   .sidebar_menu {
     text-align: justify;
     margin-left: 10px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003346}}
   .sidebar_menu:after {
     content: "";
     width: 100%;
@@ -1024,7 +1025,7 @@ footer .copyright {
     *display: inline;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003352}}
 .sidebar_menu > li {
   padding: 0 0 10px 45px;
   line-height: 2;
@@ -1034,7 +1035,7 @@ footer .copyright {
   font-style: italic;
 }
 @media only screen and (max-width: 939px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003352}}
   .sidebar_menu > li {
     width: 25%;
     display: -moz-inline-stack;
@@ -1049,13 +1050,13 @@ footer .copyright {
   }
 }
 @media only screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003352}}
   .sidebar_menu > li {
     width: 39%;
   }
 }
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003352}}
   .sidebar_menu > li {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -1063,31 +1064,31 @@ footer .copyright {
     box-sizing: border-box;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003377}}
 .sidebar_menu > li.active, .sidebar_menu > li.hover {
   color: #372d2d;
 }
 @media only screen and (max-width: 939px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003377}}
   .sidebar_menu > li.active, .sidebar_menu > li.hover {
     display: block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003382}}
 .sidebar_menu > li.active a, .sidebar_menu > li.hover a {
   color: #372d2d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003387}}
 .sidebar_menu > li.active ul, .sidebar_menu > li.hover ul {
   position: relative;
   left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003392}}
 .sidebar_menu > li > a {
   text-decoration: none;
   color: #9f320f;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003397}}
 .sidebar_menu > li:hover > span, .sidebar_menu > li.hover > span {
   -webkit-transform: rotate(1turn);
   -moz-transform: rotate(1turn);
@@ -1097,7 +1098,7 @@ footer .copyright {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003401}}
 .sidebar_menu > li span {
   position: absolute;
   left: 0;
@@ -1113,7 +1114,7 @@ footer .copyright {
   -o-transition: 500ms all;
   transition: 500ms all;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003408}}
 .sidebar_menu > li ul {
   margin: 5px 0 0px -32px;
   padding: 0;
@@ -1125,25 +1126,25 @@ footer .copyright {
   transition: none;
 }
 @media only screen and (max-width: 939px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003408}}
   .sidebar_menu > li ul {
     width: 400%;
     margin-top: 15px;
   }
 }
 @media only screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003408}}
   .sidebar_menu > li ul {
     width: 250%;
   }
 }
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003408}}
   .sidebar_menu > li ul {
     width: 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003425}}
 .sidebar_menu > li li {
   list-style: none;
   margin: 0;
@@ -1154,7 +1155,7 @@ footer .copyright {
   font-size: 12px;
 }
 @media only screen and (max-width: 939px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003425}}
   .sidebar_menu > li li {
     display: -moz-inline-stack;
     display: inline-block;
@@ -1165,28 +1166,28 @@ footer .copyright {
   }
 }
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003425}}
   .sidebar_menu > li li {
     display: block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003440}}
 .sidebar_menu > li li:hover, .sidebar_menu > li li.active {
   background: url(../img/checkbox_check.png) 0 center no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003442}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003443}}
 .sidebar_menu > li li a {
   color: #000;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003448}}
 .sidebar_menu > li li a:hover {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003455}}
 .icon_contact_footer {
   background: url('../img/icons-sb66b22fa85.png') 0 -1247px no-repeat;
   width: 50px;
@@ -1202,7 +1203,7 @@ footer .copyright {
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003461}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003462}}
 .icon_kvadrat_big {
   background: url('../img/icons-sb66b22fa85.png') 0 -1977px no-repeat;
   width: 48px;
@@ -1218,84 +1219,84 @@ footer .copyright {
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003469}}
 .icon_contact {
   background: url('../img/icons-sb66b22fa85.png') 0 -1205px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003472}}
 .icon_article {
   background: url('../img/icons-sb66b22fa85.png') 0 -1103px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003475}}
 .icon_veer {
   background: url('../img/icons-sb66b22fa85.png') 0 -695px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003478}}
 .icon_video {
   background: url('../img/icons-sb66b22fa85.png') 0 -1001px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003480}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003481}}
 .icon_money {
   background: url('../img/icons-sb66b22fa85.png') 0 -899px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003484}}
 .icon_gift {
   background: url('../img/icons-sb66b22fa85.png') 0 -797px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003486}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003487}}
 .icon_buda {
   background: url('../img/icons-sb66b22fa85.png') 0 -491px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003490}}
 .icon_kamen {
   background: url('../img/icons-sb66b22fa85.png') 0 -593px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003492}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003493}}
 .icon_visivka {
   background: url('../img/icons-sb66b22fa85.png') 0 -287px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003495}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003496}}
 .icon_silk {
   background: url('../img/icons-sb66b22fa85.png') 0 -185px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003499}}
 .icon_sosud {
   background: url('../img/icons-sb66b22fa85.png') 0 -389px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003502}}
 .icon {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1307,74 +1308,74 @@ footer .copyright {
   left: -65px;
   top: -13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003506}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003507}}
 .silk .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -227px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003509}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003510}}
 .vishivka .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -125px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003513}}
 .predmets .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -329px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003516}}
 .litie .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -431px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003519}}
 .rezba .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -533px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003522}}
 .veera .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -635px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003525}}
 .gift .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -737px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003528}}
 .money .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -839px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003531}}
 .video .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -941px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003533}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003534}}
 .article .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -1043px no-repeat;
   width: 50px;
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003536}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003537}}
 .contacts .icon {
   background: url('../img/icons-sb66b22fa85.png') 0 -1145px no-repeat;
   width: 50px;
   height: 50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003541}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003542}}
 .icon_faq {
   background: url('../img/icons-sb66b22fa85.png') 0 -1919px no-repeat;
   width: 49px;
@@ -1390,7 +1391,7 @@ footer .copyright {
   top: -10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003549}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003550}}
 .footer_wrap {
   padding-top: 17px;
   padding-left: 90px;
@@ -1399,62 +1400,62 @@ footer .copyright {
   box-sizing: border-box;
 }
 @media only screen and (max-width: 939px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003549}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003550}}
   .footer_wrap {
     padding-left: 60px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003558}}
 .footer_wrap .footer_adress {
   float: left;
   padding: 5px 0 0 20px;
   position: relative;
 }
 @media only screen and (max-width: 939px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003558}}
   .footer_wrap .footer_adress {
     max-width: 425px;
     padding-top: 0;
   }
 }
 @media only screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003558}}
   .footer_wrap .footer_adress {
     float: none;
     margin: auto;
   }
 }
 @media only screen and (max-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003558}}
   .footer_wrap .footer_adress {
     height: 90px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003574}}
 .footer_wrap .footer_adress p {
   font-size: 14px;
   font-weight: 600;
 }
 @media only screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003574}}
   .footer_wrap .footer_adress p {
     line-height: 1;
     padding-bottom: 4px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003581}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003582}}
 .footer_wrap .footer_adress .icon_contact_footer {
   left: -50px;
   -webkit-animation: rotation 4s infinite linear;
   animation: rotation 4s infinite linear;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003587}}
 .footer_wrap .footer_adress .icon_kvadrat_big {
   left: -50px;
   -webkit-animation: rotation 4s infinite linear;
   animation: rotation 4s infinite linear;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003595}}
 .footer_wrap .copyright {
   background: url(../img/bg_copyright.png) 0 0 no-repeat;
   margin-top: -17px;
@@ -1463,7 +1464,7 @@ footer .copyright {
   width: 170px;
 }
 @media only screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003595}}
   .footer_wrap .copyright {
     margin: auto;
     float: none;
@@ -1473,70 +1474,70 @@ footer .copyright {
   }
 }
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003595}}
   .footer_wrap .copyright {
     padding-top: 7px;
   }
 }
 @media only screen and (max-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003595}}
   .footer_wrap .copyright {
     padding-top: 0;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003631}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003632}}
 .product-page .info {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003633}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/work\/Heaven_Colours\/html\/sass\/_main\.scss}line{font-family:\00003634}}
 .product-page .info p {
   margin-bottom: 1em;
 }
 
 @-webkit-keyframes rotation {
-  /* line 640, ../sass/_main.scss */
+  /* line 641, ../sass/_main.scss */
   from {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 641, ../sass/_main.scss */
+  /* line 642, ../sass/_main.scss */
   to {
     -webkit-transform: rotate(360deg);
   }
 }
 
 @keyframes rotation {
-  /* line 644, ../sass/_main.scss */
+  /* line 645, ../sass/_main.scss */
   from {
     transform: rotate(0deg);
   }
 
-  /* line 645, ../sass/_main.scss */
+  /* line 646, ../sass/_main.scss */
   to {
     transform: rotate(360deg);
   }
 }
 
 @-webkit-keyframes rotation_ring {
-  /* line 649, ../sass/_main.scss */
+  /* line 650, ../sass/_main.scss */
   from {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 650, ../sass/_main.scss */
+  /* line 651, ../sass/_main.scss */
   to {
     -webkit-transform: rotate(15deg);
   }
 }
 
 @keyframes rotation_ring {
-  /* line 653, ../sass/_main.scss */
+  /* line 654, ../sass/_main.scss */
   from {
     transform: rotate(0deg);
   }
 
-  /* line 654, ../sass/_main.scss */
+  /* line 655, ../sass/_main.scss */
   to {
     transform: rotate(15deg);
   }
