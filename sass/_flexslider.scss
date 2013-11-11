@@ -66,6 +66,7 @@ html[xmlns] .slides {display: block;}
 .carousel .slides li li { list-style: none; padding-bottom: 18px; }
 
 /* Direction Nav */
+
 .flex-direction-nav { height: 0; margin-top: -20px; margin-top: -2rem; position: absolute; text-align: center; left: 50%; margin-left: -10px; }
 
 .flex-direction-nav li { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
@@ -75,6 +76,7 @@ html[xmlns] .slides {display: block;}
 .flexslider .flex-prev { position: absolute; @include sized-sprite($icons, "arhor_left"); left: -12px; z-index: 10; text-indent: -999em; overflow: hidden;}
 
 .flexslider .flex-next { position: absolute; @include sized-sprite($icons, "arhor_right"); right: -12px; z-index: 10; text-indent: -999em; overflow: hidden;}
+
 
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
 

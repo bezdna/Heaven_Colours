@@ -65,4 +65,7 @@ var adjustMenu = function() {
       $(this).toggleClass('hover');
     });
   }
+
 }
+  
+
